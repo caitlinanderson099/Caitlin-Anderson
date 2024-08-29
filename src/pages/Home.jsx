@@ -42,7 +42,7 @@ const [projects, setProjects] = useState([]);
       const firstImage = Array.isArray(project.project_images) ? project.project_images[0] : project.project_images;
   
       return (
-        <div key={index} className='project-card' onClick={() => handleNavigate(project.id)}>
+        <div key={index} className='project-card' onClick={() => handleNavigate(project._id)}>
           <img src={firstImage} alt='project image' className='project-image'/>
           <div className='project-card-details'>
             <h2>{project.project_name}</h2>
