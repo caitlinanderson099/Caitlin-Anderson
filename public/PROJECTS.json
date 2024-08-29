@@ -1,0 +1,123 @@
+[{
+        "_id": "wellyaccommodations",
+        "project_name": "Welly Accommodations",
+        "project_type": "Web Design",
+        "date": "2024",
+        "description": "I had created this website design for my summative assessment in the Foundation Coding Module of my Web and UX Design Course.",
+        "extended_description": "I had created this website design for my summative assessment in the Foundation Coding Module of my Web and UX Design Course. I got given a brief to create a functional accommodation finder webapp for my client, Tourism NZ.Through this brief, I had been given a specific data set in the form of JavaScript arrays for each accommodation. Throughout the 3 weeks of creating this project, I had learnt the fundamentals of JavaScript functions and data arrays which helped me to create this accommodation finder that filters through options such as Location, Accommodation Type, Minimum / Maximum Guests, and more.This has helped me understand and apply typical design and code fundamentals for function websites and webapps.",
+        "project_images": [
+            "/project-img/caitlin-accommodation-mockup(1).png",
+            "/project-img/caitlin-accommodation-mockup(2).png",
+            "/project-img/caitlin-accommodation-mockup(3).png",
+            "/project-img/caitlin-accommodation-mockup(4).png"
+        ],
+        "skills_used": [
+            "img/skills-img/figma-icon.svg",
+            "img/skills-img/github-icon.svg",
+            "img/skills-img/fullpage-icon.png",
+            "img/skills-img/vscode-icon.png",
+            "img/skills-img/mapbox-icon.png",
+            "img/skills-img/html-icon.svg",
+            "img/skills-img/css-icon.svg",
+            "img/skills-img/js-icon.svg"
+        ],
+        "link": "https://summative-2-2-accommodation-finder.vercel.app/",
+        "is_featured": false
+    },
+
+    {
+        "_id": "jewellerysupreme",
+        "project_name": "Jewellery Supreme Store",
+        "project_type": "Web Design",
+        "date": "2024",
+        "description": "I had created 'Jewellery Supreme' for my Formative 2.2 assessment in the Foundation Coding Module.",
+        "extended_description": "I had created 'Jewellery Supreme' for my Formative 2.2 assessment in the Foundation Coding Module. The brief for this project was to create a website utilizing Jquery and it's libraries including Fullpage and Mapbox. In creation of this project, I took heavy inspiration from the current website for Lovisa jewellery as well as a design layout for jewellery that I had found on Pinterest. I wanted to create something the portrayed high end style so I used some of Lovisa's jewellery items to help that portrayal. Throughout this project I had the chance to learn about time management and how to utilize the resources accordingly. Using Mapbox really helped to make this project feel more 'real world' and not only something I created in a classroom. Creating this project within two weeks helped me to be more diligent with my time and plan stages accordingly and stick to them.",
+        "project_images": [
+            "/project-img/caitlin-jewellery-mockup(1).png",
+            "/i-img/caitlin-jewellery-mockup(2).png",
+            "/project-img/caitlin-jewellery-mockup(3).png",
+            "/project-img/caitlin-jewellery-mockup(4).png"
+        ],
+        "skills_used": [
+            "img/skills-img/figma-icon.svg",
+            "img/skills-img/github-icon.svg",
+            "img/skills-img/fullpage-icon.png",
+            "img/skills-img/vscode-icon.png",
+            "img/skills-img/html-icon.svg",
+            "img/skills-img/css-icon.svg",
+            "img/skills-img/js-icon.svg"
+        ],
+        "link": "https://formative-2-2-single-page-app.vercel.app/",
+        "is_featured": true
+    },
+
+    {
+        "_id": "artoffoodredesign",
+        "project_name": "Art of Food (Redesign)",
+        "project_type": "Web Design",
+        "date": "2024",
+        "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module.",
+        "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
+        "project_images": [
+            "/project-img/caitlin-art-of-food-mockup(1).png",
+            "/project-img/caitlin-art-of-food-mockup(2).png",
+            "/project-img/caitlin-art-of-food-mockup(3).png",
+            "/project-img/caitlin-art-of-food-mockup(4).png"
+        ],
+        "skills_used": [
+            "img/skills-img/figma-icon.svg",
+            "img/skills-img/github-icon.svg",
+            "img/skills-img/vscode-icon.png",
+            "img/skills-img/html-icon.svg",
+            "img/skills-img/css-icon.svg"
+        ],
+        "link": "https://formative-1-2-weld.vercel.app/",
+        "is_featured": false
+    },
+    {
+        "_id": "propertysearch",
+        "project_name": "New Zealand Property Finder",
+        "project_type": "Web Design",
+        "date": "2024",
+        "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module.",
+        "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
+        "project_images": [
+            "/project-img/caitlin-property-finder-mockup(1).png",
+            "/project-img/caitlin-property-finder-mockup(2).png",
+            "/project-img/caitlin-property-finder-mockup(3).png",
+            "/project-img/caitlin-property-finder-mockup(4).png"
+        ],
+        "skills_used": [
+            "img/skills-img/figma-icon.svg",
+            "img/skills-img/github-icon.svg",
+            "img/skills-img/vscode-icon.png",
+            "img/skills-img/html-icon.svg",
+            "img/skills-img/css-icon.svg"
+        ],
+        "link": "https://formative-1-2-weld.vercel.app/",
+        "is_featured": true
+    },
+    {
+        "_id": "elixircocktailmaker",
+        "project_name": "Elixir Cocktail Maker",
+        "project_type": "Ui Design",
+        "date": "2024",
+        "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module.",
+        "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
+        "project_images": [
+            "/project-img/caitlin-elixir-mockup(1).png",
+            "/project-img/caitlin-elixir-mockup(2).png",
+            "/project-img/caitlin-elixir-mockup(3).png",
+            "/project-img/caitlin-elixir-mockup(4).png"
+        ],
+        "skills_used": [
+            "img/skills-img/figma-icon.svg",
+            "img/skills-img/github-icon.svg",
+            "img/skills-img/vscode-icon.png",
+            "img/skills-img/html-icon.svg",
+            "img/skills-img/css-icon.svg"
+        ],
+        "link": "https://formative-1-2-weld.vercel.app/",
+        "is_featured": true
+    }
+]
