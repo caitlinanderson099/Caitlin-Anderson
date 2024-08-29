@@ -28,6 +28,7 @@ p {
 /* navbar */
 #top-nav {
   color: white;
+  background-color: #131212;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -41,6 +42,10 @@ p {
     a {
       text-decoration: none;
       color: whitesmoke;
+      transition: all 0.3s ease;
+    }
+
+    h4 {
       transition: all 0.3s ease;
     }
 
@@ -63,6 +68,16 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 30px;
+
+    a {
+      text-decoration: none;
+      color: whitesmoke;
+      transition: all 0.3s ease;
+    }
+    a:hover {
+      color: rgba(214, 84, 189, 0.75);
+      transition: all 0.3s ease;
+    }
   }
 }
 
@@ -92,7 +107,8 @@ hr {
 
       img {
         width: 400px;
-        height: 400px;
+        object-fit: cover;
+        height: 500px;
         border-radius: 9px;
         border: 3px solid #131212;
       }
@@ -156,6 +172,81 @@ hr {
 
 }
 
+
+/* -------- SINGLE PROJECTS PAGE --------- */
+.single-project {
+  margin: 20px;
+
+  .back-btn {
+    background-color: #131212;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 9px;
+    border: 3px solid #131212;
+    transition: all 0.3s ease;
+  }
+  .back-btn:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 1px 4px 13px 3px rgba(214, 84, 189, 0.75);
+    -webkit-box-shadow: 1px 4px 13px 3px rgba(214, 84, 189, 0.75);
+    -moz-box-shadow: 1px 4px 13px 3px rgba(214, 84, 189, 0.75);
+  }
+
+  .single-project-details {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+
+    .single-project-left {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      h1 {
+        font-size: 3em;
+      }
+
+      h3 {
+        font-size: 2em;
+      }
+
+      .skills-cont {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        img {
+          width: 50px;
+        }
+      }
+
+      a {
+        font-family: "Quattrocento", sans-serif;
+        color: whitesmoke;
+        transition: all 0.3s ease;
+      }
+      a:hover {
+        color: rgba(214, 84, 189, 0.75);
+        transition: all 0.3s ease;
+      }
+    }
+
+    .single-project-right {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 10px;
+
+      .project-image {
+        border: 2px solid white;
+        width: 100%;
+        border-radius: 9px;
+      }
+    }
+  }
+}
+
 /*  ----------- PROJECT CARD STYLING -------- */
 .project-card {
   background-color: #131212;
@@ -177,12 +268,14 @@ hr {
   .project-card-details {
     padding: 10px;
     color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 }
 
 .project-card:hover {
   transition: all 0.3s ease;
-  border: 3px solid rgba(214, 84, 189, 0.75);
   box-shadow: 1px 4px 13px 3px rgba(214, 84, 189, 0.75);
   -webkit-box-shadow: 1px 4px 13px 3px rgba(214, 84, 189, 0.75);
   -moz-box-shadow: 1px 4px 13px 3px rgba(214, 84, 189, 0.75);
