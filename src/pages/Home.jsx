@@ -75,6 +75,7 @@ const [projects, setProjects] = useState([]);
                     <h3> Technical Skills </h3>
                     <p> HTML & CSS/SASS | Javascript & jQuery | React & Vite | VSCode | GitHub & Vercel | Adobe Creative Suite | Figma Prototyping </p>
                 </div>
+                
             </div>
         </div>
 

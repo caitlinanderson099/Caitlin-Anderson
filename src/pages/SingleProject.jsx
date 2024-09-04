@@ -30,13 +30,17 @@ const SingleProject = () => {
         <div className='single-project-left'>
           <h1>{project.project_name}</h1>
           <h3>{project.project_type} | {project.date}</h3>
+          <h3> Project Brief </h3>
+          <p> {project.project_brief} </p>
+
+          <h3> Project Process </h3>
           <p>{project.extended_description}</p>
+
           <h3> Skills / Technologies Used: </h3>
           <div className='skills-cont'>
-            {project.skills_used && project.skills_used.map((image, index) => (            
-              <img key={index} src={image} alt={`project skill ${index + 1}`} className='project-skill' />
-            ))}
+            <h4> {project.skills_used} </h4>
           </div>
+
           {project.link && (
             <>
               <h3> Vercel Link: </h3>
