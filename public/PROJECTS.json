@@ -96,15 +96,15 @@
         "project_type": "Web Design",
         "date": "2024",
         "project_brief": "The brief for this code demo was to create a functioning website that displayed the different Pokemons and their details using the Pokedex API.",
-        "description": "This was created by the KKC Team as a group project for our UI Design assessment in the Web & Graphic Design Course in 2023.",
-        "extended_description": "This was created by the KKC Team as a group project for our UI Design assessment in the Web & Graphic Design Course in 2023.This particular group consisted of myself, Kristine, and Kaung, and during this project we were focusing on Figma and how to properly use and create functioning applications using that software. ElixirConnect is a mobile app where users can create and build the cocktail drink of their choosing from the app whilst on the go (An ElixirConnect Cocktail Machine is needed). The idea behind it was to create an application that was different and gave ease of use to the users. During this project, I really excelled at team work and communication as we had been practicing Agile Methods of working, using sprints and standups in particular to create and run our project efficiently.",
+        "description": "This was created during a code demo class.",
+        "extended_description": "This was created during a code demo class. The purpose of this demo was to show us how to get data from a public API such as the PokeDex.com. From this, I was able to understand how API's work and what I can use to grab and display the data into my own website.",
         "project_images": [
             "/project-img/caitlin-pokedex-mockup(1).png",
             "/project-img/caitlin-pokedex-mockup(2).png",
             "/project-img/caitlin-pokedex-mockup(3).png",
             "/project-img/caitlin-pokedex-mockup(4).png"
         ],
-        "skills_used": "Figma | Team Work | Agile Methods | UX Research | Communication | Problem Solving",
+        "skills_used": "Problem Solving | VSCode | Research",
 
         "is_featured": false
     }
