@@ -1,8 +1,8 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from '../pages/Home'
-import Projects from '../pages/Projects'
-import SingleProject from '../pages/SingleProject'
+import Home from '../pages/home/Home'
+import Projects from '../pages/projects/Projects'
+import SingleProject from '../pages/single-project/SingleProject'
 
 const Links = () => {
   return (

@@ -1,199 +1,41 @@
+/* ---------- BASE WEBSITE STYLING FILE ---------- */
+
+/* Imports */
+/* Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Crushed&family=Quattrocento:wght@400;700&family=Tenor+Sans&display=swap');
 
+/* Global Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Default Body Styling */
 body {
   background-color: #1f1f1f;
-}
 
-/* -------- STATIC ASSETS STYLING --------- */
-/* headings and paragraphs */
-h1,
-h2,
-h3,
-h4 {
+  h1, h2, h3, h4 {
   font-family: "Crushed", sans-serif;
   color: whitesmoke;
-}
+  }
 
-p {
-  font-family: "Quattrocento", serif;
-  color: whitesmoke;
-  letter-spacing: 0.5px;
-        line-height: 1.2;
-}
-
-/* navbar */
-#top-nav {
-  color: white;
-  background-color: #131212;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  .nav-items {
-    font-size: 1.5em;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-
-    a {
-      text-decoration: none;
-      color: whitesmoke;
-      transition: all 0.3s ease;
-    }
-
-    h4 {
-      transition: all 0.3s ease;
-    }
-
-    h4:hover {
-      transition: all 0.3s ease;
-      color: rgba(214, 84, 189, 0.75);
-    }
+  p {
+    font-family: "Quattrocento", serif;
+    color: whitesmoke;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
   }
 }
 
-/* footer */
-footer {
-  padding: 20px;
-  text-align: center;
-  background-color: #131212;
-
-  .footer-contact {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-
-    a {
-      text-decoration: none;
-      color: whitesmoke;
-      transition: all 0.3s ease;
-    }
-    a:hover {
-      color: rgba(214, 84, 189, 0.75);
-      transition: all 0.3s ease;
-    }
-  }
-}
-
-/* horizontal line */
+/* Horizontal Line */
 hr {
   background-color: white;
   height: 2px;
   border-radius: 2px;
 }
 
-/* ------- PROJECTS PAGE ---------- */
-#projects-page {
-  margin: 20px;
-
-  #projectCont {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding: 20px;
-  }
-
-}
-
-.home {
-  .home-top {
-    display: grid;
-
-    .left-side {
-      display: flex;
-      justify-content: center;
-
-      img {
-        object-fit: cover;
-        border-radius: 9px;
-        border: 3px solid #131212;
-      }
-    }
-  }
-}
-
-/* -------- SINGLE PROJECTS PAGE --------- */
-.single-project {
-  margin: 20px;
-  
-    .back-btn {
-      background-color: #131212;
-      color: whitesmoke;
-      font-weight: bold;
-      padding: 10px;
-      border-radius: 9px;
-      border: 3px solid #131212;
-      transition: all 0.3s ease;
-    }
-    .back-btn:hover {
-      cursor: pointer;
-      transition: all 0.3s ease;
-      box-shadow: 1px 4px 13px 3px rgba(214, 84, 189, 0.75);
-      -webkit-box-shadow: 1px 4px 13px 3px rgba(214, 84, 189, 0.75);
-      -moz-box-shadow: 1px 4px 13px 3px rgba(214, 84, 189, 0.75);
-    }
-  
-
-  .single-project-details {
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 40px;
-
-    .single-project-left {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-
-      h1 {
-        font-size: 3em;
-      }
-
-      h3 {
-        font-size: 2em;
-      }
-
-      .skills-cont {
-        width: 100%;
-        letter-spacing: 1px;
-      }
-
-      a {
-        width: 60%;
-        font-family: "Quattrocento", sans-serif;
-        color: whitesmoke;
-        transition: all 0.3s ease;
-      }
-      a:hover {
-        color: rgba(214, 84, 189, 0.75);
-        transition: all 0.3s ease;
-      }
-    }
-
-    .single-project-right {
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-      gap: 10px;
-
-      .project-image {
-        border: 2px solid white;
-        width: 100%;
-        border-radius: 9px;
-      }
-    }
-  }
-}
-
-/*  ----------- PROJECT CARD STYLING -------- */
+/* Default Project Card Styling */
 .project-card {
   background-color: #131212;
   border: 3px solid #131212;
@@ -227,110 +69,4 @@ hr {
   box-shadow: 1px 4px 13px 3px rgba(214, 84, 189, 0.75);
   -webkit-box-shadow: 1px 4px 13px 3px rgba(214, 84, 189, 0.75);
   -moz-box-shadow: 1px 4px 13px 3px rgba(214, 84, 189, 0.75);
-}
-
-
-/* ----------------- MEDIA QUERIES --------------- */
-
-/* small mobile */
-@media screen and (min-width: 400px) {
-
-  .home-top {
-    padding: 20px;
-    grid-template-columns: 1fr;
-
-      img {
-        width: 200px;
-      }
-    }
-}
-
-/* large mobile */
-@media screen and (min-width: 600px) {
-  
-}
-
-/* tablet */
-@media screen and (min-width: 900px) {
-  .home-top {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-}
-
-/* laptop */
-@media screen and (min-width: 1080px) {
-
-  /* ---------- HOME PAGE --------- */
-.home {
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-
-  .home-top {
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    padding: 20px;
-
-    img {
-      width: 400px;
-    }
-
-    .right-side {
-      padding: 20px;
-      background-color: #131212;
-      border: 3px solid #131212;
-      border-radius: 9px;
-
-      .info-cont {
-        padding: 30px;
-        letter-spacing: 0.5px;
-        line-height: 1.2;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-
-        #name-heading {
-          color: rgba(214, 84, 189, 0.75);
-        }
-
-        h2 {
-          font-size: 3em;
-        }
-
-        h3 {
-          font-size: 1.2em;
-        }
-
-      }
-
-    }
-  }
-
-  .home-bottom {
-    padding: 20px;
-    margin-bottom: 20px;
-
-    h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
-    }
-
-    .featured {
-      margin-top: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-    }
-  }
-}
-
-  /* width 400px height 500px for img */
-  
-}
-
-/* large laptop + desktop */
-@media screen and (min-width: 1440px) {
-  
 }
