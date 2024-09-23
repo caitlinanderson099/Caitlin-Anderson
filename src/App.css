@@ -71,6 +71,7 @@ hr {
   -moz-box-shadow: 1px 4px 13px 3px rgba(214, 84, 189, 0.75);
 }
 
+/* Project Card Styling For Media Queries */
 @media screen and (max-width: 600px) {
   .project-card {
     width: 100%;
