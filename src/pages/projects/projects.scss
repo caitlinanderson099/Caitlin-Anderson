@@ -10,3 +10,27 @@
     }
   
   }
+
+  @media screen and (max-width: 900px) {
+    #projects-page {
+      #projectCont {
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+  }
+
+  @media screen and (max-width: 600px) {
+    #projects-page {
+      #projectCont {
+      grid-template-columns: 1fr;
+    }
+  }
+  }
+
+  @media screen and (max-width: 400px) {
+    #projects-page {
+      #projectCont {
+      grid-template-columns: 1fr;
+    }
+  }
+  }
