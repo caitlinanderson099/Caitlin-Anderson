@@ -1,16 +1,14 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from '../pages/home/Home'
-import Projects from '../pages/projects/Projects'
-import SingleProject from '../pages/single-project/SingleProject'
+import SingleProject from '../pages/single-page/SingleProject'
 
 const Links = () => {
   return (
     <>
     <Routes>
-        <Route exact path='/' element={<Home/>}></Route>
-        <Route exact path='/projects' element={<Projects/>}></Route>
-        <Route path="/singleproject/:id" element={<SingleProject />} />  
+        <Route exact path='/' element={<Home/>}/>
+        <Route path="/singleproject/:id" element={<SingleProject />} />
     </Routes>
       
     </>

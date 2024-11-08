@@ -1,31 +1,146 @@
-/* navbar */
-#top-nav {
-    color: white;
-    background-color: #131212;
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(16, 17, 16, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.2px);
+  -webkit-backdrop-filter: blur(4.2px);
+  font-family: "Figtree", sans-serif;
+
+
+  button {
+    background-color: white;
     padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    .nav-items {
-      font-size: 1.5em;
-      display: flex;
-      align-items: center;
-      gap: 30px;
-  
-      a {
-        text-decoration: none;
-        color: whitesmoke;
-        transition: all 0.3s ease;
-      }
-  
-      h4 {
-        transition: all 0.3s ease;
-      }
-  
-      h4:hover {
-        transition: all 0.3s ease;
-        color: rgba(214, 84, 189, 0.75);
-      }
-    }
+    border-radius: 20px;
+    border: 2px solid white;
+    font-family: "Figtree", sans-serif;
+    color: #101110;
+    transition: all 0.3s ease;
   }
+
+  button:hover {
+    background-color: transparent;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  top: 24px;
+  right: 35px;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40px;
+  width: 45px;
+  transition: transform 0.3s ease;
+  border: 2px solid white;
+  padding: 9px;
+  border-radius: 10px;
+
+  z-index: 1001;
+  /* Ensure it stays on top of other content */
+}
+
+.bar {
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.bar1.toggle {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.bar2.toggle {
+  opacity: 0;
+}
+
+.bar3.toggle {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  a:hover {
+    border: 2px solid white;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar.navbar.menu-open {
+    display: flex;
+    height: 100vh;
+  }
+  .menu-icon {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(16, 17, 16, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.2px);
+    -webkit-backdrop-filter: blur(4.2px);
+      width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+  }
+
+  .nav-links.active {
+    display: flex;
+    transform: translateY(0);
+  }
+
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+  }
+
+  .navbar.menu-open .menu-icon {
+    position: fixed;
+    /* Ensure it remains fixed when menu is open */
+  }
+
+  .nav-links li {
+    margin: 1rem 0;
+    text-align: center;
+  }
+}
