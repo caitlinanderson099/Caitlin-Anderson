@@ -9,9 +9,10 @@
         "project_brief": "The brief for this project, Formative 2.2, is to create a website that will implement use cases such as; View List, View Details, and Filter Items By Category. As well as Using Javascript to manipulate the DOM, implement simple algorithms, and use a variety of production tools.",
         "extended_description": "I had created 'Jewellery Supreme' for my Formative 2.2 assessment in the Foundation Coding Module. The brief for this project was to create a website utilizing Jquery and it's libraries including Fullpage and Mapbox. In creation of this project, I took heavy inspiration from the current website for Lovisa jewellery as well as a design layout for jewellery that I had found on Pinterest. I wanted to create something the portrayed high end style so I used some of Lovisa's jewellery items to help that portrayal. Throughout this project I had the chance to learn about time management and how to utilize the resources accordingly. Using Mapbox really helped to make this project feel more 'real world' and not only something I created in a classroom. Creating this project within two weeks helped me to be more diligent with my time and plan stages accordingly and stick to them.",
         "project_images": [
-            "/project-img/jewellery supreme mockup redo 1.png",
-            "/project-img/jewellery supreme mockup redo 2.png",
-            "/project-img/jewellery supreme mockup redo 3.png"
+            "/project-img/jewellery-supreme-mockup(1).png",
+            "/project-img/jewellery-supreme-mockup(2).png",
+            "/project-img/jewellery-supreme-mockup(3).png",
+            "/project-img/jewellery-supreme-mockup(4).png"
         ],
         "skills_used": "Figma | GitHub | VSCode | HTML | CSS | Javascript | Fullpage Js | Time Management | Problem Solving",
         "link": "https://formative-2-2-single-page-app.vercel.app/",
@@ -27,9 +28,10 @@
         "description": "I had created this website when completing a class code demo in the Foundation Coding Module.",
         "extended_description": "I had created this website during my Formative 4.1 assessment in the Content Management Systems Module. The brief was to redesign the current website for a non-profit organization, while also taking into account the cultural and sociological issues that they are facing. I had chosen Forest & Bird NZ and the issues of, cultural sensitivity and public awareness, and, conservation vs consumerism and eco-tourism.My objective was to redesign the navigational system and layout of the website to a more concise and minimal look which included the more relevant information for the organization. This website was created utilizing Wordpress and its Plugins (WooCommerce, ACF, CoCart, CPT, and SCF), as well as React Vite for the frontend.",
         "project_images": [
-            "/project-img/forest and bird mockup 1.png",
-            "/project-img/forest and bird mockup 2.png",
-            "/project-img/forest and bird mockup 3.png"
+            "/project-img/forest-and-bird-mockup(1).png",
+            "/project-img/forest-and-bird-mockup(2).png",
+            "/project-img/forest-and-bird-mockup(3).png",
+            "/project-img/forest-and-bird-mockup(4).png"
         ],
         "skills_used": "VSCode | HTML | CSS | Javascript | GitHub | Figma | Vercel",
         "link": "https://forestandbirdformative4-1.vercel.app/",
@@ -43,9 +45,10 @@
         "date": "2024",
         "extended_description": "I had created this website during my Summative 4.1 assessment in the Content Management Systems Module. Our brief was to create a redesigned website for a non profit organization or local business needing an online presence. As well as creating a customizable WordPress theme for the client. I had chosen Be Ba Bo Hair Studio located in New Plymouth, New Zealand. I wanted to give them a website that reflected their brand values and create accessibility for all users of the website. I had used Figma to help with the pre production, VSCode to develop the website, and Vercel and WordPress to deploy the website and allow it be customized. Down below are links to the deployed site, as well as the backend and frontend GitHub repositories.",
         "project_images": [
-            "/project-img/be-ba-bo-mockup.png",
-            "/project-img/be-ba-bo-mockup.png",
-            "/project-img/be-ba-bo-mockup.png"
+            "/project-img/be-ba-bo-mockup(1).png",
+            "/project-img/be-ba-bo-mockup(2).png",
+            "/project-img/be-ba-bo-mockup(3).png",
+            "/project-img/be-ba-bo-mockup(4).png"
         ],
         "skills_used": "VSCode | React + Vite | WordPress | GitHub | Figma | Vercel",
         "link": "https://be-ba-bo-hair-studio.vercel.app/",
@@ -63,9 +66,10 @@
         "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
         "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
         "project_images": [
-            "/project-img/art of food mockup 3.png",
-            "/project-img/art of food mockup 2.png",
-            "/project-img/art of food mockup 1.png"
+            "/project-img/art-of-food-mockup(1).png",
+            "/project-img/art-of-food-mockup(2).png",
+            "/project-img/art-of-food-mockup(3).png",
+            "/project-img/art-of-food-mockup(4).png"
         ],
         "skills_used": "Figma | GitHub | VSCode | HTML | CSS | Team Work | Time Management | Communication | Problem Solving",
         "link": "https://formative-1-2-weld.vercel.app/",
