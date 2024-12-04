@@ -37,6 +37,24 @@
     },
 
     {
+        "_id": "bebabohairstudionz",
+        "project_name": "Be Ba Bo Hair Studio NZ (Redesign)",
+        "project_type": "Web Design, UX Design",
+        "date": "2024",
+        "extended_description": "I had created this website during my Summative 4.1 assessment in the Content Management Systems Module. Our brief was to create a redesigned website for a non profit organization or local business needing an online presence. As well as creating a customizable WordPress theme for the client. I had chosen Be Ba Bo Hair Studio located in New Plymouth, New Zealand. I wanted to give them a website that reflected their brand values and create accessibility for all users of the website. I had used Figma to help with the pre production, VSCode to develop the website, and Vercel and WordPress to deploy the website and allow it be customized. Down below are links to the deployed site, as well as the backend and frontend GitHub repositories.",
+        "project_images": [
+            "/project-img/be-ba-bo-mockup.png",
+            "/project-img/be-ba-bo-mockup.png",
+            "/project-img/be-ba-bo-mockup.png"
+        ],
+        "skills_used": "VSCode | React + Vite | WordPress | GitHub | Figma | Vercel",
+        "link": "https://be-ba-bo-hair-studio.vercel.app/",
+        "backend_link": "https://github.com/caitlinanderson099/be-ba-bo-custom-theme",
+        "frontend_link": "https://github.com/caitlinanderson099/be-ba-bo-hair-studio",
+        "is_featured": false
+    },
+
+    {
         "_id": "artoffoodredesign",
         "project_name": "Art of Food (Redesign)",
         "project_type": "Web Design, UX Design",
