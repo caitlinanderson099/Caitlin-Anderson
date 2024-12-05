@@ -479,13 +479,11 @@ body {
 /* Contact Section CSS */
 .contact-page {
   background-color: transparent;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 20%;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   font-family: "Figtree", sans-serif;
   padding: 20px;
-  height: 80vh;
+  /* height: 80vh; */
   .heading-text {
       display: flex;
       flex-direction: column;
@@ -501,9 +499,10 @@ body {
         font-weight: 500;
       }
       form {
+        width: 50%;
         margin-top: 10px;
         display: flex;
-        align-items: flex-end;
+        flex-direction: column;
         gap: 10px;
         .form-group {
           display: flex;
@@ -540,9 +539,7 @@ body {
   }
   .social-icons {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-right: 30px;
+      margin-top: 10px;
       gap: 20px;
       svg {
           font-size: 3em;

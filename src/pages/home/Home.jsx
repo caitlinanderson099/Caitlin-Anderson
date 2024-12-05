@@ -274,6 +274,13 @@ const Home = () => {
             <div className="heading-text">
                 <h2> Get In Touch With Me </h2>
                 <h3> To get in touch with me, just message me on any of my socials, or use the contact form below for any and all enquiries :) </h3>
+                 {/* Social Icons */}
+            <div className="social-icons">
+                <Instagram />
+                <Behance />
+                <Linkedin />
+                <Envelope />
+            </div>
                 <form onSubmit={handleSubmit}>
                   {/* Name */}
                   <div className='form-group'>
@@ -303,7 +310,7 @@ const Home = () => {
                   <div className='form-group'>
                     <label> Phone Number: </label>
                     <input 
-                      type="number" 
+                      type="text" 
                       name='number'
                       value={formData.number}
                       onChange={handleChange}
@@ -340,15 +347,6 @@ const Home = () => {
                   </div>
                 </form>          
             </div>
-
-              {/* Social Icons */}
-            <div className="social-icons">
-                <Instagram />
-                <Behance />
-                <Linkedin />
-                <Envelope />
-            </div>
-
           </div>
         </div>
       </>
