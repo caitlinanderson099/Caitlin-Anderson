@@ -19,6 +19,7 @@ const Home = () => {
 
     // Open Project Function
     const handleOpenProject = (projectId) => {
+      window.scrollTo(0,0);
       let path = `/singleproject/${projectId}`;
       navigate(path);
     }
@@ -206,7 +207,7 @@ const Home = () => {
               <div className="about-group">
                 <h3> Skills </h3>
                 <p> Time Management | Team Work & Communication | Problem Solving & Critical Thinking | Resilience & Adaptability </p>
-                <p> HTML & CSS/SASS | Javascript & jQuery | React & Vite | VSCode | GitHub & Vercel | Adobe Creative Suite | Figma Prototyping </p>
+                <p> HTML & CSS/SASS | Javascript & jQuery | React & Vite | VSCode | GitHub & Vercel | Adobe Creative Suite | Figma Prototyping | WordPress | MongoDB</p>
               </div>
 
               <div className="social-cont">

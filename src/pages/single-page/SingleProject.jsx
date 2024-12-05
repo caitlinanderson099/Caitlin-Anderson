@@ -32,6 +32,7 @@ const SingleProject = () => {
   }
 
   const handleBack = () => {
+    window.scrollTo(0,0);
     navigate(-1);
   }
   
