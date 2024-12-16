@@ -14,6 +14,11 @@ body {
   background-position: center;
 }
 
+.home {
+  max-width: 100vw;
+
+}
+
 /* Navbar CSS */
 .navbar {
   display: flex;
@@ -224,6 +229,9 @@ body {
 
 /* mobile for landing */
 @media screen and (max-width: 600px) {
+  .home {
+    max-width: 100vw;
+  }
   .landing-page {
     display: flex;
     flex-direction: column;
@@ -325,6 +333,9 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 0%;
+    .img-cont {
+      width: 100%;
+    }
     .about-info {
       align-items: center;
       .about-group {
@@ -466,6 +477,21 @@ body {
   .projects-page {
     flex-direction: column;
     align-items: center;
+    .filter-cont {
+      flex-direction: column;
+      width: 100%;
+      .filter-group {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        select {
+          width: 100%;
+        }
+      }
+      button {
+        width: 100%;
+      }
+    }
     h2 {
       text-align: center;
     }
@@ -483,7 +509,6 @@ body {
   flex-direction: column;
   font-family: "Figtree", sans-serif;
   padding: 20px;
-  /* height: 80vh; */
   .heading-text {
       display: flex;
       flex-direction: column;
@@ -572,6 +597,8 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: 100%;
+      margin-top: 7%;
       .form-group {
         width: 100%;
         text-align: left;
@@ -676,29 +703,32 @@ body {
 
 /* mobile for single project */
 @media screen and (max-width: 600px) {
-  .single-page .single-project-details {
-    padding-top: 20%;
-    grid-template-columns: 1fr;
-    .single-project-left {
-      padding: 0px 20px;
-      margin: 0px;
-      display: flex;
-      flex-direction: column;
+  .single-page {
+    max-width: 100vw;
+    .single-project-details {
+      padding-top: 20%;
+      grid-template-columns: 1fr;
       align-items: center;
-      button {
-        width: 100%;
+      .single-project-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        button {
+          width: 100%;
+        }
+        .img-cont {
+          max-width: 100vw;
+        }
       }
-      .img-cont {
-        width: 500px;
-      }
-    }
-    .single-project-right {
-      align-items: center;
-      text-align: center;
-      padding: 0px;
-      gap: 20px;
-      p {
-        font-size: 15px;
+      .single-project-right {
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        gap: 20px;
+        p {
+          font-size: 15px;
+        }
       }
     }
   }
