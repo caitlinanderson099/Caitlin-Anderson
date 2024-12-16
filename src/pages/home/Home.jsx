@@ -191,7 +191,7 @@ const Home = () => {
           <div className='about-content'>
 
             <div className='img-cont'>
-              <img src="/ai-pic.webp" alt="" />
+              <img src="/portfolio-pfp.jpeg" alt="Photo of myself" />
             </div>
 
             <div className='about-info'>
