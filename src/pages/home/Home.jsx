@@ -11,6 +11,8 @@ import { ArrowDown, Behance, Envelope, Instagram, Linkedin } from 'react-bootstr
 
 const Home = () => {
 
+    AOS.init();
+
     const [projects, setProjects] = useState([]);
     const [projectType, setProjectType] = useState('');
     const [year, setYear] = useState('');
@@ -127,6 +129,12 @@ const Home = () => {
         )
     };
 
+    // Handle Web Design Navigation
+    const handleWeb = (e) => {
+      e.preventDefault();
+      navigate('/web-projects');
+    }
+
     // Home Page Master Return
     return (
       <>
@@ -174,12 +182,12 @@ const Home = () => {
           </header>
           {/* Landing Page */}
           <div ref={landingRef} className='landing-page'>
-            <div className='header-subheader'>
+            <div className='header-subheader' data-aos="fade-up" data-aos-duration="1000">
               <h1> Welcome to Caitlin Anderson's Design Portfolio! </h1>
               <h2> Disclaimer: All Projects Were Created For Educational Purposes Only </h2>
             </div>
 
-            <div className='landing-buttons'>
+            <div className='landing-buttons' data-aos="fade-up" data-aos-duration="1000">
             <button onClick={() => scrollToSection(contactRef)} className='chat-btn'> Let's Chat! </button>
             <button onClick={() => scrollToSection(aboutRef)}> Explore Website </button>
             </div>
@@ -262,7 +270,7 @@ const Home = () => {
                 </div>
                 <button onClick={() => { setProjectType(''); setYear(''); }}> Clear Filters</button>
 
-            </div>
+            </div> 
 
             <div id='projectGrid'>
               {loading ? (<p>Loading...</p>) : filteredProjects.length === 0 ? (<p className='filter-error-message'>No results found for the selected filters.</p>) : (<Projects projects={filteredProjects} />)}            

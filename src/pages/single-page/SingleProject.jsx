@@ -15,6 +15,7 @@ const SingleProject = () => {
   const { id } = useParams();
   const [project, setProject] = useState(null);
   const navigate = useNavigate(); 
+  const [modalImage, setModalImage] = useState(null); 
 
   useEffect(() => {
     axios.get('/PROJECTS.json')
@@ -26,6 +27,14 @@ const SingleProject = () => {
         console.error('Error fetching project data:', error);
       });
   }, [id]);
+
+  const openModal = (image) => {
+    setModalImage(image);
+  };
+
+  const closeModal = () => {
+    setModalImage(null);
+  };
 
   if (!project) {
     return <div>Loading...</div>;
@@ -55,8 +64,13 @@ const SingleProject = () => {
             >
               {project.project_images.map((image, index) => (
                 <SwiperSlide key={index}>
-                  <img src={image} alt={`${project.project_name} ${index + 1}`} />
-                </SwiperSlide>
+                <img
+                  src={image}
+                  alt={`${project.project_name} ${index + 1}`}
+                  onClick={() => openModal(image)}
+                  style={{ cursor: 'pointer' }}
+                />
+              </SwiperSlide>
               ))}
             </Swiper>
           </div>
@@ -78,6 +92,16 @@ const SingleProject = () => {
           )}
         </div>
         </div>
+
+        {/* Modal */}
+      {modalImage && (
+        <div className="modal-overlay" onClick={closeModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="modal-close" onClick={closeModal}>X</button>
+            <img src={modalImage} alt="Modal" />
+          </div>
+        </div>
+      )}
     </div>
   )
 }
