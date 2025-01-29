@@ -20,29 +20,11 @@
     },
 
     {
-        "_id": "forestandbirdnz",
-        "project_name": "Forest & Bird NZ (Redesign)",
-        "project_type": "Web Design, UX Design",
-        "date": "2024",
-        "project_brief": "The brief for this code demo was to create a property finder using basic code functions allowing users to input their information for properties, filter them by the inputs, and display it.",
-        "description": "I had created this website when completing a class code demo in the Foundation Coding Module.",
-        "extended_description": "I had created this website during my Formative 4.1 assessment in the Content Management Systems Module. The brief was to redesign the current website for a non-profit organization, while also taking into account the cultural and sociological issues that they are facing. I had chosen Forest & Bird NZ and the issues of, cultural sensitivity and public awareness, and, conservation vs consumerism and eco-tourism.My objective was to redesign the navigational system and layout of the website to a more concise and minimal look which included the more relevant information for the organization. This website was created utilizing Wordpress and its Plugins (WooCommerce, ACF, CoCart, CPT, and SCF), as well as React Vite for the frontend.",
-        "project_images": [
-            "/project-img/forest-and-bird-mockup(1).png",
-            "/project-img/forest-and-bird-mockup(2).png",
-            "/project-img/forest-and-bird-mockup(3).png",
-            "/project-img/forest-and-bird-mockup(4).png"
-        ],
-        "skills_used": "VSCode | HTML | CSS | Javascript | GitHub | Figma | Vercel",
-        "link": "https://forestandbirdformative4-1.vercel.app/",
-        "is_featured": false
-    },
-
-    {
         "_id": "bebabohairstudionz",
-        "project_name": "Be Ba Bo Hair Studio NZ (Redesign)",
+        "project_name": "Be Ba Bo Hair Studio",
         "project_type": "Web Design, UX Design",
         "date": "2024",
+        "short_description": "This was created for an assessment to redesign a website for a small local business. Be Ba Bo Hair Studio is a hair salon located in New Plymouth New Zealand. Owned by Janine Marshall-Johnson.",
         "extended_description": "I had created this website during my Summative 4.1 assessment in the Content Management Systems Module. Our brief was to create a redesigned website for a non profit organization or local business needing an online presence. As well as creating a customizable WordPress theme for the client. I had chosen Be Ba Bo Hair Studio located in New Plymouth, New Zealand. I wanted to give them a website that reflected their brand values and create accessibility for all users of the website. I had used Figma to help with the pre production, VSCode to develop the website, and Vercel and WordPress to deploy the website and allow it be customized. Down below are links to the deployed site, as well as the backend and frontend GitHub repositories.",
         "project_images": [
             "/project-img/be-ba-bo-mockup(1).png",
@@ -54,12 +36,32 @@
         "link": "https://be-ba-bo-hair-studio.vercel.app/",
         "backend_link": "https://github.com/caitlinanderson099/be-ba-bo-custom-theme",
         "frontend_link": "https://github.com/caitlinanderson099/be-ba-bo-hair-studio",
-        "is_featured": false
+        "is_featured": true
+    },
+
+    {
+        "_id": "forestandbirdnz",
+        "project_name": "Forest & Bird NZ",
+        "project_type": "Web Design, UX Design",
+        "date": "2024",
+        "project_brief": "The brief for this code demo was to create a property finder using basic code functions allowing users to input their information for properties, filter them by the inputs, and display it.",
+        "short_description": "This was created for an assessment to redesign a website for a non-profit organisation in New Zealand. Forest and Bird Nz is a foundation dedicated to protecting and preserving the integrity of New Zealand's wildlife and wild lands.",
+        "extended_description": "I had created this website during my Formative 4.1 assessment in the Content Management Systems Module. The brief was to redesign the current website for a non-profit organization, while also taking into account the cultural and sociological issues that they are facing. I had chosen Forest & Bird NZ and the issues of, cultural sensitivity and public awareness, and, conservation vs consumerism and eco-tourism.My objective was to redesign the navigational system and layout of the website to a more concise and minimal look which included the more relevant information for the organization. This website was created utilizing Wordpress and its Plugins (WooCommerce, ACF, CoCart, CPT, and SCF), as well as React Vite for the frontend.",
+        "project_images": [
+            "/project-img/forest-and-bird-mockup(1).png",
+            "/project-img/forest-and-bird-mockup(2).png",
+            "/project-img/forest-and-bird-mockup(3).png",
+            "/project-img/forest-and-bird-mockup(4).png"
+        ],
+        "skills_used": "VSCode | HTML | CSS | Javascript | GitHub | Figma | Vercel",
+        "link": "https://forestandbirdformative4-1.vercel.app/",
+        "frontend_link": "https://github.com/caitlinanderson099/forestandbirdformative4.1",
+        "is_featured": true
     },
 
     {
         "_id": "artoffoodredesign",
-        "project_name": "Art of Food (Redesign)",
+        "project_name": "Art of Food",
         "project_type": "Web Design, UX Design",
         "date": "2024",
         "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
@@ -73,6 +75,43 @@
         ],
         "skills_used": "Figma | GitHub | VSCode | HTML | CSS | Team Work | Time Management | Communication | Problem Solving",
         "link": "https://formative-1-2-weld.vercel.app/",
-        "is_featured": true
+        "is_featured": false
+    },
+
+    {
+        "_id": "2402classportfolio",
+        "project_name": "2402 Class Portfolio",
+        "project_type": "Web Design, UX Design",
+        "date": "2024",
+        "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
+        "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
+        "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
+        "project_images": [
+            "/project-img/art-of-food-mockup(1).png",
+            "/project-img/art-of-food-mockup(2).png",
+            "/project-img/art-of-food-mockup(3).png",
+            "/project-img/art-of-food-mockup(4).png"
+        ],
+        "skills_used": "Figma | GitHub | VSCode | HTML | CSS | Team Work | Time Management | Communication | Problem Solving",
+        "link": "https://formative-1-2-weld.vercel.app/",
+        "is_featured": false
+    },
+
+    {
+        "_id": "wellyaccommodations",
+        "project_name": "Welly Accommodations",
+        "project_type": "Web Design, UX Design",
+        "date": "2024",
+        "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
+        "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
+        "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
+        "project_images": [
+            "/project-img/accommodation(1).png",
+            "/project-img/accommodation(2).png",
+            "/project-img/accommodation(3).png"
+        ],
+        "skills_used": "Figma | GitHub | VSCode | HTML | CSS | Team Work | Time Management | Communication | Problem Solving",
+        "link": "https://formative-1-2-weld.vercel.app/",
+        "is_featured": false
     }
 ]
