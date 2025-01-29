@@ -132,8 +132,8 @@ const MyWall = () => {
 
             <div className='skill-list'>
               <div className='skill'>HTML</div>
-              <div className='skill'>CSS</div>
-              <div className='skill'>JS</div>
+              <div className='skill'>CSS/ SASS</div>
+              <div className='skill'>JavaScript/ Jquery</div>
               <div className='skill'>React</div>
               <div className='skill'>Databases</div>
               <div className='skill'>Node.js</div>

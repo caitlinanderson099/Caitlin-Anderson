@@ -242,7 +242,7 @@ nav {
       width: 100%;
       .blog-card {
         display: flex;
-        height: 250px; /* so that less than three cards have a good height */
+        height: fit-content;
         gap: 1rem;
         padding: 20px;
         border-radius: 20px;
