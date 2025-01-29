@@ -51,8 +51,8 @@ const Home = () => {
         <div className='landing-page' data-aos="fade-up" data-aos-duration="3000">
           <div className='landing-content'>
             <h1 id='landing-header'>Welcome!</h1>
-            <h2>Hi, my name is Caitlin and I am a Web <span> Designer/Developer </span></h2>
-            <p>All projects included in this website for created for educational purposes</p>
+            <h2>Hi, my name is Caitlin and I am a Web Designer/Developer </h2>
+            <p> <strong>Disclaimer:</strong> All projects included in this website were created for educational purposes</p>
 
             <div className='landing-navigation'>
               <a href="#get-in-touch"> Get In Touch </a>
