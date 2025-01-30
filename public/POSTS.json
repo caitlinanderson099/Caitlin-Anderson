@@ -1,11 +1,21 @@
 [
 
+
+    {
+        "_id": "exhibition-night-blogpost",
+        "title": "Yoobee Exhibition Night 2025",
+        "description": "Awesome night getting to showcase the work that we've all done over this past year! Well done everyone:)",
+        "date": "30/01/25",
+        "blog_image": "/post-img/exhibition-night.jpg",
+        "rank": "#1"
+    },
+    
     {
         "_id": "summeroftech-blogpost",
         "title": "2024 Summer of Tech Meet & Greet!",
         "description": "What a great experience getting to know all the different companies at SOT Meet & Greet! Thanks Summer of Tech and all of the companies that volunteered their time",
         "date": "19/11/24",
         "blog_image": "/post-img/summer-of-tech.jpeg",
-        "rank": "#1"
+        "rank": "#2"
     }
 ]
