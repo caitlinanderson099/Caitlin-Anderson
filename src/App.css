@@ -151,6 +151,7 @@ nav {
     justify-content: center;
     a {
       font-size: 1.3em;
+      font-weight: 500;
     }
   }
 }

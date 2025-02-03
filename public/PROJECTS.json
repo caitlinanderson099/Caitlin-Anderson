@@ -60,6 +60,44 @@
     },
 
     {
+        "_id": "pokedexapi",
+        "project_name": "Pokedex API",
+        "project_type": "UX Design",
+        "date": "2024",
+        "description": "I had created 'Jewellery Supreme' for my Formative 2.2 assessment in the Foundation Coding Module.",
+        "project_brief": "The brief for this project, Formative 2.2, is to create a website that will implement use cases such as; View List, View Details, and Filter Items By Category. As well as Using Javascript to manipulate the DOM, implement simple algorithms, and use a variety of production tools.",
+        "extended_description": "For this particular project, we were practising how to grab data from an API. In this case, it was for the Pokemon Pokedex which allows viewers to search the type of Pokemon they wish and read up on their special powers and traits. This project was an introduction into grabbing data through an Axios call to an existing API.",
+        "project_images": [
+            "/project-img/pokedex-mockup(1).png",
+            "/project-img/pokedex-mockup(2).png",
+            "/project-img/pokedex-mockup(3).png",
+            "/project-img/pokedex-mockup(4).png"
+        ],
+        "skills_used": "VSCode | HTML | CSS | Javascript | React | Axios | Data API's",
+        "link": "https://pokedex-react-app-silk.vercel.app/",
+        "frontend_link": "https://github.com/caitlinanderson099/pokedex-react-app",
+        "is_featured": true
+    },
+
+    {
+        "_id": "newsapi",
+        "project_name": "News API",
+        "project_type": "UX Design",
+        "date": "2024",
+        "description": "I had created 'Jewellery Supreme' for my Formative 2.2 assessment in the Foundation Coding Module.",
+        "project_brief": "The brief for this project, Formative 2.2, is to create a website that will implement use cases such as; View List, View Details, and Filter Items By Category. As well as Using Javascript to manipulate the DOM, implement simple algorithms, and use a variety of production tools.",
+        "extended_description": "For this particular project, we were practising how to grab data from an API. In this case, it was for the News API which is a website where you can grab any and all news data and plug it into your code using a code key. This project was an introduction into grabbing data through an Axios call to an existing API.",
+        "project_images": [
+            "/project-img/news-mockup(1).png",
+            "/project-img/news-mockup(2).png",
+            "/project-img/news-mockup(3).png"
+        ],
+        "skills_used": "VSCode | HTML | CSS | Javascript | React | Axios | Data API's",
+        "link": "https://github.com/caitlinanderson099/formative-news-app",
+        "is_featured": true
+    },
+
+    {
         "_id": "artoffoodredesign",
         "project_name": "Art of Food",
         "project_type": "Web Design, UX Design",
@@ -75,7 +113,7 @@
         ],
         "skills_used": "Figma | GitHub | VSCode | HTML | CSS | Team Work | Time Management | Communication | Problem Solving",
         "link": "https://formative-1-2-weld.vercel.app/",
-        "is_featured": false
+        "is_featured": true
     },
 
     {
