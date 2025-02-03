@@ -1,5 +1,13 @@
 [
 
+    {
+        "_id": "graduation-night-blogpost",
+        "title": "Yoobee Graduation Night 2025",
+        "description": "So exciting to be graduating. Congratulations to everyone who put in so much effort!",
+        "date": "31/01/25",
+        "blog_image": "/post-img/graduation.jpg",
+        "rank": "#1"
+    },
 
     {
         "_id": "exhibition-night-blogpost",
@@ -7,7 +15,7 @@
         "description": "Awesome night getting to showcase the work that we've all done over this past year! Well done everyone:)",
         "date": "30/01/25",
         "blog_image": "/post-img/exhibition-night.jpg",
-        "rank": "#1"
+        "rank": "#2"
     },
     
     {
@@ -16,6 +24,6 @@
         "description": "What a great experience getting to know all the different companies at SOT Meet & Greet! Thanks Summer of Tech and all of the companies that volunteered their time",
         "date": "19/11/24",
         "blog_image": "/post-img/summer-of-tech.jpeg",
-        "rank": "#2"
+        "rank": "#3"
     }
 ]
