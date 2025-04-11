@@ -1,6 +1,47 @@
 [
 
     {
+        "_id": "lesavorrecipefinder",
+        "project_name": "Le Savor Recipe Finder API",
+        "project_type": "Web Design, UX Design",
+        "date": "2025",
+        "short_description": "This was created using the Spoonacular API",
+        "extended_description": "This website was created for my personal educational purposes. Using Spoonacular API, I created this website Le Savor. Le Savor is a recipe finding website that assists users in finding the perfect recipe for their needs. Le Savor has a fictional owner named Danny. Danny loves to create masterpieces with food and strives to help others find their own love with cooking. I had created this website to continue honing in on my skills using Axios Calls, React + Vite, and JavaScript.",
+        "project_images": [
+            "/project-img/recipe-mockup(1).png",
+            "/project-img/recipe-mockup(2).png",
+            "/project-img/recipe-mockup(3).png",
+            "/project-img/recipe-mockup(4).png",
+            "/project-img/recipe-mockup(5).png"
+        ],
+        "skills_used": "VSCode | React + Vite | GitHub | Vercel | Canva | Spoonacular API",
+        "link": "https://le-savour-recipe-finder.vercel.app/",
+        "backend_link": "https://spoonacular.com/food-api",
+        "frontend_link": "https://github.com/caitlinanderson099/recipe-finder-using-api",
+        "is_featured": true
+    },
+
+    {
+        "_id": "fermentedbarandeaterypostrs",
+        "project_name": "Fermented Bar & Eatery Promo Posters",
+        "project_type": "Graphic Design",
+        "date": "2025",
+        "short_description": "This was created using Canva",
+        "extended_description": "*Created for work purposes.* I had designed these promotional posters for Fermented Bar & Eatery in Brewtown Upper Hutt. The Fermented staff wanted to engage more customers with their daily specials on food and drinks and had asked me to design them some posters that would help bring more customers in. I had a meeting with management on what sort of style they wanted to portray and we came up with a colourful and cutesy image that would appeal to people of all ages. **Posters created:** Tuesday- Buy 1 Dessert Get 1 Free | Wednesday - Buy 1 Pizza Get Free Fries | Wednesday Night- Believe it or not quiz nights | Thursday - Tradie Thursday (come in with work uniform and get house beers & wines from $9) | Friday & Saturday - Fun Day (get $10 classic shots & $12 classic cocktails) | Sunday - Get 2 Regular Bubble Teas for $15",
+        "project_images": [
+            "/project-img/poster-mockup(1).png",
+            "/project-img/poster-mockup(2).png",
+            "/project-img/poster-mockup(3).png",
+            "/project-img/poster-mockup(4).png",
+            "/project-img/poster-mockup(5).png",
+            "/project-img/poster-mockup(6).png",
+            "/project-img/poster-mockup(7).png"
+        ],
+        "skills_used": "Canva",
+        "is_featured": true
+    },
+
+    {
         "_id": "bebabohairstudionz",
         "project_name": "Be Ba Bo Hair Studio",
         "project_type": "Web Design, UX Design",

@@ -141,6 +141,7 @@ const SingleProject = () => {
               <a href={project.link} target="_blank" rel="noopener noreferrer">{project.link}</a>
               <a href={project.backend_link} target="_blank" rel="noopener noreferrer">{project.backend_link}</a>
               <a href={project.frontend_link} target="_blank" rel="noopener noreferrer">{project.frontend_link}</a>
+              <a href={project.api_link} target="_blank" rel="noopener noreferrer">{project.api_link}</a>
               </div>
             </>
           )}

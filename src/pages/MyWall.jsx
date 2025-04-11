@@ -137,6 +137,7 @@ const MyWall = () => {
               <div className='skill'>React</div>
               <div className='skill'>Databases</div>
               <div className='skill'>Node.js</div>
+              <div className='skill'>API Calls</div>
               <div className='skill'>Wordpress</div>
               <div className='skill'>Figma</div>
               <div className='skill'>Adaptability</div>
