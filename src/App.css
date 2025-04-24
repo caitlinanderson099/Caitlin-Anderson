@@ -1,5 +1,7 @@
 /* ---------- BASE WEBSITE STYLING FILE ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Jost:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');* {
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Jost:ital,wght@0,100..900;1,100..900&family=Smythe&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -132,6 +134,15 @@ nav {
   padding: 150px;
   text-align: center;
   font-family: "Jost", serif;
+  .landing-content {
+    .typed-text {
+      font-family: "Imperial Script", cursive;
+      font-weight: bold;
+      color: #682c9c;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+  }
 
   h1 {
     font-size: 5em;
