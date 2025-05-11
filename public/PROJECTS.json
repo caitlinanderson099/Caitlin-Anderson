@@ -22,12 +22,12 @@
     },
 
     {
-        "_id": "fermentedbarandeaterypostrs",
+        "_id": "fermentedbarandeateryposters",
         "project_name": "Fermented Bar & Eatery Promo Posters",
         "project_type": "Graphic Design",
         "date": "2025",
         "short_description": "This was created using Canva",
-        "extended_description": "*Created for work purposes.* I had designed these promotional posters for Fermented Bar & Eatery in Brewtown Upper Hutt. The Fermented staff wanted to engage more customers with their daily specials on food and drinks and had asked me to design them some posters that would help bring more customers in. I had a meeting with management on what sort of style they wanted to portray and we came up with a colourful and cutesy image that would appeal to people of all ages. **Posters created:** Tuesday- Buy 1 Dessert Get 1 Free | Wednesday - Buy 1 Pizza Get Free Fries | Wednesday Night- Believe it or not quiz nights | Thursday - Tradie Thursday (come in with work uniform and get house beers & wines from $9) | Friday & Saturday - Fun Day (get $10 classic shots & $12 classic cocktails) | Sunday - Get 2 Regular Bubble Teas for $15",
+        "extended_description": "<p><em>Created for work purposes.</em> I had designed these promotional posters for Fermented Bar & Eatery in Brewtown Upper Hutt. The Fermented staff wanted to engage more customers with their daily specials on food and drinks and had asked me to design them some posters that would help bring more customers in. I had a meeting with management on what sort of style they wanted to portray and we came up with a colourful and cutesy image that would appeal to people of all ages.</p><br><p><strong>Posters created:</strong></p><ul><li><strong>Tuesday:</strong> Buy 1 Dessert Get 1 Free</li><li><strong>Wednesday:</strong> Buy 1 Pizza Get Free Fries</li><li><strong>Wednesday Night:</strong> Believe it or not quiz nights</li><li><strong>Thursday - Tradie Thursday:</strong> Come in with work uniform and get house beers & wines from $9</li><li><strong>Friday & Saturday - Fun Day:</strong> Get $10 classic shots & $12 classic cocktails</li><li><strong>Sunday:</strong> Get 2 Regular Bubble Teas for $15</li></ul>",
         "project_images": [
             "/project-img/poster-mockup(1).png",
             "/project-img/poster-mockup(2).png",
@@ -46,6 +46,7 @@
         "project_name": "Be Ba Bo Hair Studio",
         "project_type": "Web Design, UX Design",
         "date": "2024",
+        "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "short_description": "This was created for an assessment to redesign a website for a small local business. Be Ba Bo Hair Studio is a hair salon located in New Plymouth New Zealand. Owned by Janine Marshall-Johnson.",
         "extended_description": "I had created this website during my Summative 4.1 assessment in the Content Management Systems Module. Our brief was to create a redesigned website for a non profit organization or local business needing an online presence. As well as creating a customizable WordPress theme for the client. I had chosen Be Ba Bo Hair Studio located in New Plymouth, New Zealand. I wanted to give them a website that reflected their brand values and create accessibility for all users of the website. I had used Figma to help with the pre production, VSCode to develop the website, and Vercel and WordPress to deploy the website and allow it be customized. Down below are links to the deployed site, as well as the backend and frontend GitHub repositories.",
         "project_images": [
@@ -66,6 +67,7 @@
         "project_name": "Forest & Bird NZ",
         "project_type": "Web Design, UX Design",
         "date": "2024",
+        "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "project_brief": "The brief for this code demo was to create a property finder using basic code functions allowing users to input their information for properties, filter them by the inputs, and display it.",
         "short_description": "This was created for an assessment to redesign a website for a non-profit organisation in New Zealand. Forest and Bird Nz is a foundation dedicated to protecting and preserving the integrity of New Zealand's wildlife and wild lands.",
         "extended_description": "I had created this website during my Formative 4.1 assessment in the Content Management Systems Module. The brief was to redesign the current website for a non-profit organization, while also taking into account the cultural and sociological issues that they are facing. I had chosen Forest & Bird NZ and the issues of, cultural sensitivity and public awareness, and, conservation vs consumerism and eco-tourism.My objective was to redesign the navigational system and layout of the website to a more concise and minimal look which included the more relevant information for the organization. This website was created utilizing Wordpress and its Plugins (WooCommerce, ACF, CoCart, CPT, and SCF), as well as React Vite for the frontend.",
@@ -86,6 +88,7 @@
         "project_name": "Jewellery Supreme Store",
         "project_type": "Web Design",
         "date": "2024",
+        "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "description": "I had created 'Jewellery Supreme' for my Formative 2.2 assessment in the Foundation Coding Module.",
         "project_brief": "The brief for this project, Formative 2.2, is to create a website that will implement use cases such as; View List, View Details, and Filter Items By Category. As well as Using Javascript to manipulate the DOM, implement simple algorithms, and use a variety of production tools.",
         "extended_description": "I had created 'Jewellery Supreme' for my Formative 2.2 assessment in the Foundation Coding Module. The brief for this project was to create a website utilizing Jquery and it's libraries including Fullpage and Mapbox. In creation of this project, I took heavy inspiration from the current website for Lovisa jewellery as well as a design layout for jewellery that I had found on Pinterest. I wanted to create something the portrayed high end style so I used some of Lovisa's jewellery items to help that portrayal. Throughout this project I had the chance to learn about time management and how to utilize the resources accordingly. Using Mapbox really helped to make this project feel more 'real world' and not only something I created in a classroom. Creating this project within two weeks helped me to be more diligent with my time and plan stages accordingly and stick to them.",
@@ -105,6 +108,7 @@
         "project_name": "Pokedex API",
         "project_type": "UX Design",
         "date": "2024",
+        "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "description": "I had created 'Jewellery Supreme' for my Formative 2.2 assessment in the Foundation Coding Module.",
         "project_brief": "The brief for this project, Formative 2.2, is to create a website that will implement use cases such as; View List, View Details, and Filter Items By Category. As well as Using Javascript to manipulate the DOM, implement simple algorithms, and use a variety of production tools.",
         "extended_description": "For this particular project, we were practising how to grab data from an API. In this case, it was for the Pokemon Pokedex which allows viewers to search the type of Pokemon they wish and read up on their special powers and traits. This project was an introduction into grabbing data through an Axios call to an existing API.",
@@ -125,6 +129,7 @@
         "project_name": "News API",
         "project_type": "UX Design",
         "date": "2024",
+        "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "description": "I had created 'Jewellery Supreme' for my Formative 2.2 assessment in the Foundation Coding Module.",
         "project_brief": "The brief for this project, Formative 2.2, is to create a website that will implement use cases such as; View List, View Details, and Filter Items By Category. As well as Using Javascript to manipulate the DOM, implement simple algorithms, and use a variety of production tools.",
         "extended_description": "For this particular project, we were practising how to grab data from an API. In this case, it was for the News API which is a website where you can grab any and all news data and plug it into your code using a code key. This project was an introduction into grabbing data through an Axios call to an existing API.",
@@ -143,6 +148,7 @@
         "project_name": "Art of Food",
         "project_type": "Web Design, UX Design",
         "date": "2024",
+        "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
         "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
         "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
@@ -162,6 +168,7 @@
         "project_name": "2402 Class Portfolio",
         "project_type": "Web Design, UX Design",
         "date": "2024",
+        "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
         "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
         "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
@@ -181,6 +188,7 @@
         "project_name": "Welly Accommodations",
         "project_type": "Web Design, UX Design",
         "date": "2024",
+        "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
         "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
         "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
@@ -199,14 +207,15 @@
         "project_name": "Hutt Valley Taxis LTD",
         "project_type": "Graphic Design",
         "date": "2023",
+        "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
         "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
         "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
         "project_images": [
-            "/business_card_mockup.jpg"
+            "/project-img/business-card-mockup.png"
         ],
         "skills_used": "Figma | GitHub | VSCode | HTML | CSS | Team Work | Time Management | Communication | Problem Solving",
-        "is_featured": false
+        "is_featured": true
     },
     
     {
@@ -214,6 +223,7 @@
         "project_name": "Sims 4 Hamburger Cake Box",
         "project_type": "Product Design",
         "date": "2023",
+        "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
         "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
         "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",

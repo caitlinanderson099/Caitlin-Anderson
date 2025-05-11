@@ -2,9 +2,11 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
 import { Behance, EnvelopeFill, Github, Instagram, Linkedin, PinMapFill } from 'react-bootstrap-icons';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
-const MyWall = () => {
+const MyArticles = () => {
 
   // AOS Initialization
   useEffect(() => {
@@ -108,9 +110,10 @@ const MyWall = () => {
   // My Wall Master Return
   return (
 
-    <div className='my-wall'>
+    <div className='my-articles'>
         <Navbar/>
-        <h1 data-aos="fade-up" data-aos-duration="2000">My Wall</h1>
+        <h1 data-aos="fade-up" data-aos-duration="2000">My Articles</h1>
+        <h2>WILL REDO THIS</h2>
 
         {/* page content */}
         <div className='wall-content' data-aos="fade-up" data-aos-duration="2000">
@@ -124,7 +127,7 @@ const MyWall = () => {
             <h3> Web Designer & Developer </h3>
             <h4> <PinMapFill/>  Wellington, New Zealand</h4>
             <p>
-              Hi, I'm Caitlin! I'm a passionate coder and designer with a knack for creating engaging and user-friendly websites and apps
+              Hi, I&apos;m Caitlin! I&apos;m a passionate coder and designer with a knack for creating engaging and user-friendly websites and apps
             </p>
             <p>
             I am a very organised person and love to show that with my work. In my spare time, I enjoy collecting and building Lego Sets, curling up with a good book, and going on adventures with friends. Hope you enjoy having a looksie through my works:)
@@ -167,4 +170,4 @@ const MyWall = () => {
   )
 }
 
-export default MyWall
+export default MyArticles;

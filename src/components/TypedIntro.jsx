@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from 'react';
 
-const TypedText = ({ sentences = [], speed = 70, delayBetween = 1000 }) => {
+const TypedIntro = ({ sentences = [], speed = 70, delayBetween = 1000 }) => {
   const [displayed, setDisplayed] = useState('');
   const [sentenceIndex, setSentenceIndex] = useState(0);
 
@@ -31,11 +31,11 @@ const TypedText = ({ sentences = [], speed = 70, delayBetween = 1000 }) => {
 
   return (
     // the span is the text that is coming up on the site, can give the span any class name to help with css
-    <span className="typed-text">
+    <span className="typed-intro">
       {displayed}
       <span className="cursor">|</span>
     </span>
   );
 };
 
-export default TypedText;
+export default TypedIntro;

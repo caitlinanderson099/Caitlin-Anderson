@@ -1,46 +1,27 @@
-// Base Imports
-import { useEffect } from 'react';
-import { useState } from 'react';
-
-// Icon Imports
-import { EnvelopeFill, Instagram, Linkedin} from 'react-bootstrap-icons';
-
-// Component Imports
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
-
-
-// Package Imports
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import emailjs from 'emailjs-com';
 import toast, { Toaster } from 'react-hot-toast';
+import { useState } from 'react';
 
-// ENV Imports
 const SERVICE_ID = import.meta.env.VITE_EMAIL_JS_SERVICE_ID
 const TEMPLATE_ID = import.meta.env.VITE_EMAIL_JS_TEMPLATE_ID
 const USER_ID = import.meta.env.VITE_EMAIL_JS_USER_ID
 
 
-const Contact = () => {
+const ContactSection = () => {
 
-    // AOS Initialization
-    useEffect(() => {
-          AOS.init();
-    }, []);
-    
-    // Email FormData Functions
-    const [formData, setFormData] = useState({
+     const [formData, setFormData] = useState({
           name: "",
           email: "",
           subject: "",
           message: "",
-    });
-    const handleChange = (e) => {
+        });
+
+        const handleChange = (e) => {
           const {name, value} = e.target;
           setFormData({...formData, [name]: value})
-    };
-    const handleSubmit = (e) => {
+        }
+
+        const handleSubmit = (e) => {
           e.preventDefault();
           emailjs
             .send(
@@ -58,28 +39,19 @@ const Contact = () => {
                 toast.error('Failed to send message. Please try again.')
               }
             );
-    };
+        }
 
-
-  // MASTER RETURN
-  return (
-    <div className='contact-page'>
-        <Navbar/>
+    return (
+      <div className="contact-section"  id="contactSection" data-aos="fade-up" data-aos-duration="2000">
         <Toaster position='top-right'/>
-        <div className='contact-content' data-aos="fade-up" data-aos-duration="2000">
-            <h1> <span>Get</span> In Touch</h1>
+            <div className="left-side">
+            <img src="/project-img/jewellery-supreme-mockup(3).png" alt="" />
+            </div>
+            <div className="right-side">
+            <h2>Let&apos;s Get <span>Connected!</span></h2>
+            <p>Feel free to fill out the form below and I will get back to you ASAP</p>
 
-            <div className='contact-details'>
-                <p>You can find me on any of my socials or feel free to fill out an enquiry form down below!</p>
-
-                <div className='socials-row'>
-                   <a href="https://www.linkedin.com/in/caitlin-anderson-75bb16270/"> <Linkedin/></a>
-                   <a href="https://www.instagram.com/caitlinanderson099/#"> <Instagram/></a>
-                   <a href="mailto:caitlinanderson099@gmail.com" target="_blank"> <EnvelopeFill/></a>
-                </div>
-
-
-                <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
 
                   <label>Name:</label>
                   <input 
@@ -116,18 +88,15 @@ const Contact = () => {
                     required
                   />
 
-                  <button type='submit'> Send Message </button>
+                  <button type='submit'> Send Your Message </button>
 
 
 
                 </form>
-
-
             </div>
-        </div>
-      <Footer/>
-    </div>
-  )
-}
+          
+      </div>
+    )
+  }
 
-export default Contact
+export default ContactSection;

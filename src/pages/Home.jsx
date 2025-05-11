@@ -1,11 +1,23 @@
 // Base Imports
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
+
 // Icon Imports
-import { Instagram, Linkedin } from 'react-bootstrap-icons';
-import TypedText from '../components/TypedText';
+import { Download} from 'react-bootstrap-icons';
+
+
+// Package Imports
+import TypedIntro from '../components/TypedIntro';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import CountUp from 'react-countup';
+
+// Component Imports
+import ContactSection from '../components/ContactSection';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 
 const Home = () => {
@@ -15,104 +27,197 @@ const Home = () => {
       AOS.init();
     }, []);
 
-    // Navbar Component
-  const Navbar = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
-
-    const toggleMenu = () => {
-      setMenuOpen(!menuOpen);
-    };
-
-    return (
-      <header>
-        <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
-          <a href="/" className="navbar-brand">
-          <img src="/caitlin anderson.png" alt="Portfolio Avatar"/>
-          </a>
-          <button className="navbar-toggle" onClick={toggleMenu}>
-            ☰
-          </button>
-          <div className={`navbar-menu ${menuOpen ? 'active' : ''}`}>
-            <a href="#my-wall" onClick={() => setMenuOpen(false)}>
-              My Wall
-            </a>
-            <a href="#my-projects" onClick={() => setMenuOpen(false)}>
-              My Projects
-            </a>
-            <a href="#get-in-touch" onClick={() => setMenuOpen(false)}>
-              Get In Touch
-            </a>
-          </div>
-        </nav>
-      </header>
-    );
-  };
-
-  const TypedIntro = () => {
+  // Typed Text Component
+  const TypedUpIntro = () => {
     return (
       <div className="h-screen flex items-center justify-center bg-gray-50 type-text-section">
-      <div className="text-center px-4 content" data-aos="fade-up">
-        <h1 className="text-4xl font-bold mb-4">Welcome!</h1>
-        <TypedText
-          sentences={[
-            "My name is Caitlin.",
-            "I specialize in UI/UX Design and Web Development",
-            "Take a look through my projects!"
-          ]}
-          speed={70}
-          delayBetween={1500}
-        />
-        <p className="mt-4 text-gray-600">
-          <strong>Disclaimer:</strong> All projects in this website were created for educational purposes
-        </p>
-      </div>
-    </div>
+        <div className="text-center px-4 content" data-aos="fade-up">
+          <TypedIntro
+            sentences={[
+              "A designer passionate about creating beautiful user friendly products.",
+              "Feel free to look around and explore:)"
 
+            ]}
+            speed={70}
+            delayBetween={1200}
+            loop={true} // If your component supports this prop
+          />
+        </div>
+      </div>
     );
+  };
+  
+  // About Me Section Component
+  const AboutSection = () => {
+    const navigate = useNavigate();
+
+    const handleConnect = (e) => {
+      e.preventDefault();
+      window.scrollTo(top);
+      navigate('/get-in-touch');
+    }
+    return (
+      <div className="about-section" data-aos="fade-up" data-aos-duration="2000">
+        <div className="about-cont" >
+        <div className='left-side'>
+          <h2>Nice to <span>Meet</span> You!</h2>
+          <h3>My name is Caitlin Anderson</h3>
+          <p> I&apos;m a Web & UX Design graduate based in Wellington, New Zealand, with a passion for creating thoughtful, user-friendly digital experiences. I specialize in hospitality and retail design, blending creativity with strategy to craft websites and apps that not only look great but work beautifully.</p>
+          <div className="button-cont">
+            <button onClick={handleConnect} className='connect-button'>Let&apos;s Connect!</button>
+            <a href="/Caitlin_Anderson_CV.pdf" download className="cv-button">
+              Download My CV <Download className='download-icon'/>
+            </a>          
+          </div>
+        </div>
+          <img src="/self-portrait.png" alt="" />
+          <div>
+          </div>
+        </div>
+      </div>
+    )
   }
 
-    // Landing Page Component
-    const LandingPage = () => {
-      return (
-        <>
-        <div className='landing-page' data-aos="fade-up" data-aos-duration="3000">
-          <div className='landing-content'>
-            <TypedIntro/>
+  // Skills Section Component
+  const SkillSection = () => {
+    return (
+      <div className='skill-section' data-aos="fade-up" data-aos-duration="2000">
 
-            <div className='landing-navigation'>
-              <a href="#get-in-touch"> Get In Touch </a>
-              <a href="#my-projects">Explore My Projects</a>
+        <div className="skill-cont">
+
+          <h2>My <span>Work</span> Skills</h2>
+
+          <div className='skill-count-section' data-aos="fade-up" data-aos-duration="2000">
+
+            {/* Skill #1 */}
+            <div className="stat-box" >
+            <img src="/skill-img/frontend-logo.png" alt="" />
+            <h3>Frontend Development</h3>
+              <CountUp className='number' end={45} duration={4} enableScrollSpy suffix="%" />
             </div>
+
+            {/* Skill #2 */}
+            <div className="stat-box" data-aos="fade-up" data-aos-duration="2000">
+            <img src="/skill-img/backend-logo.svg" alt="" />
+            <h3>Backend Development</h3>
+              <CountUp className='number' end={30} duration={4} enableScrollSpy suffix="%" />
+            </div>
+
+            {/* Skill #3 */}
+            <div className="stat-box" data-aos="fade-up" data-aos-duration="2000">
+            <img src="/skill-img/wordpress-logo.png" alt="" />
+            <h3>WordPress</h3>
+              <CountUp className='number' end={30} duration={4} enableScrollSpy suffix="%" />
+            </div>
+
+            {/* Skill #4 */}
+            <div className="stat-box" data-aos="fade-up" data-aos-duration="2000">
+            <img src="/skill-img/figma-logo.png" alt="" />
+            <h3>Figma</h3>
+              <CountUp className='number' end={55} duration={4} enableScrollSpy suffix="%" />
+            </div>
+
+            {/* Skill #5 */}
+            <div className="stat-box" data-aos="fade-up" data-aos-duration="2000">
+            <img src="/skill-img/github-logo.png" alt="" />
+            <h3>GitHub</h3>
+              <CountUp className='number' end={55} duration={4} enableScrollSpy suffix="%" />
+            </div>
+
+            {/* Skill #6 */}
+            <div className="stat-box" data-aos="fade-up" data-aos-duration="2000">
+              <img src="/skill-img/vscode-logo.png" alt="" />
+              <h3>VSCode</h3>
+              <CountUp className='number' end={78} duration={4} enableScrollSpy suffix="%" />
+            </div>
+
           </div>
+        </div>
       </div>
-      </>
-      )
-    }
+    )
+  }
 
-    // Footer Component
-    const Footer = () => {
-      return (
-        <footer>
-          <div className='footer-inner'>
-            <a href=""> <Linkedin/> @caitlinanderson099 </a>
-            <h4>© Caitlin Anderson 2025</h4>
-            <a href=""> <Instagram/> @caitlinanderson099 </a>
-          </div>
-        </footer>
-      )
-    }
-
-
-    // Home Page Master Return
+  // Landing Page Component
+  const LandingPage = () => {
     return (
       <>
-        <div className='home' id='home'>
-          <Navbar/>
-          <LandingPage/>
-          <Footer/>
+      <div className='landing-page'>
+        <div className='landing-content' data-aos="fade-up" data-aos-duration="3000">
+          <div className="landing-text">
+            <h1>Nāu mai, Hāere mai!</h1>
+            {/* <h2>ONLY NEED TO REDO THE LANDING PAGE</h2> */}
+            <h2>Welcome!</h2>
+            <p>My name is Caitlin and I’m a <span>UX Designer & Web Developer</span></p>
+          </div>
+          <TypedUpIntro/>
         </div>
-      </>
+    </div>
+    </>
     )
+  }
+
+  // Featured Projects Section Component
+  const FeaturedSection = () => {
+    const [projects, setProjects] = useState([]);
+    const navigate = useNavigate();
+  
+    useEffect(() => {
+      axios.get('/PROJECTS.json')
+        .then(response => {
+          const latest = response.data.slice(0, 3);
+          setProjects(latest);
+        })
+        .catch(error => {
+          console.error('Error fetching project data:', error);
+        });
+    }, []);
+  
+     // Open Project Function
+     const handleOpenProject = (projectId) => {
+      window.scrollTo(0,0);
+      let path = `/singleproject/${projectId}`;
+      navigate(path);
+    }
+
+    const handleProjects = () => {
+      navigate('/my-projects')
+    }
+  
+    return (
+      <div className='featured-section' data-aos="fade-up" data-aos-duration="2000">
+        <h2 className='section-title'> My <span>Latest</span> Projects</h2>
+        <div className="project-cards">
+          {projects.map(project => (
+            <div className="project-card" key={project._id} onClick={() => handleOpenProject(project._id)}>
+              <img src={project.project_images?.[0]} alt={project.title} />
+              <div className="project-details">
+                <h3>{project.project_name}</h3>
+                <h3>{project.project_type} | {project.date}</h3>
+              </div>
+            </div>
+          ))}
+        </div>
+        <button className='see-all' onClick={handleProjects}>View All Projects</button>
+      </div>
+    );
+  };
+  
+
+
+  // Home Page Master Return
+  return (
+    <>
+      <div className='home' id='home'>
+        <Navbar/>
+        <LandingPage/>
+        <SkillSection/>
+        <AboutSection/>
+        <FeaturedSection/>
+        <ContactSection/>
+        <Footer/>
+      </div>
+    </>
+  );
 }
 
 export default Home
