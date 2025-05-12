@@ -147,33 +147,23 @@ nav {
   text-align: center;
   font-family: "Kodchasan", sans-serif;
   color: #fbfbfb;
-  background-image: url('/landing-bg.jpg');
-  background-position: center;
-  background-size: cover;
   height: 60vh;
-  /* background: linear-gradient(270deg, #AD95DD, #E4A7C5, #AD95DD, #E4A7C5); */
-  /* background-size: 800% 800%; */
-  /* animation: gradientMove 20s ease infinite; */
-
-  .landing-content {
-    .typed-intro {
-      font-family: var(--secondary-font);
-      font-weight: bold;
-      font-size: 1em;
-    }
-    .arrow-down {
-      margin-top: 30px;
-      font-size: 3em;
-      /* put floating animation here */
-    }
-  }
+  background: linear-gradient(270deg, #AD95DD, #E4A7C5, #AD95DD, #E4A7C5);
+  background-size: 800% 800%;
+  animation: gradientMove 20s ease infinite; 
 
   .landing-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    padding: 20px;
     margin-bottom: 50px;
+    background: rgba(255, 255, 255, 0.505);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
     h1 {
       font-size: 3em;
     }
@@ -185,8 +175,18 @@ nav {
     }
     span {
       font-family: "Kite One", sans-serif;
-      color: #101110;
+      color: #fbfbfb;
+    }
+    .landing-span {
       text-decoration: underline;
+      font-style: italic;
+      color: #AD95DD;
+    }
+    .typed-intro {
+      font-family: var(--secondary-font);
+      font-weight: bold;
+      font-size: 1em;
+      color: #fbfbfb;
     }
   }
 }
@@ -800,6 +800,7 @@ nav {
     padding: 60px 20px;
     height: 80vh;
     .landing-text {
+      margin-top: 100px;
       h1 {
         font-size: 2.2em;
       }

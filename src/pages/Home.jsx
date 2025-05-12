@@ -145,10 +145,9 @@ const Home = () => {
         <div className='landing-content' data-aos="fade-up" data-aos-duration="3000">
           <div className="landing-text">
             <h1>Welcome!</h1>
-            {/* <h2>ONLY NEED TO REDO THE LANDING PAGE</h2> */}
-            <p>My name is Caitlin and I’m a UX Designer & Web Developer</p>
+            <p>My name is Caitlin and I’m a <span className='landing-span'>UX Designer & Web Developer</span></p>
+            <TypedUpIntro/>
           </div>
-          <TypedUpIntro/>
         </div>
     </div>
     </>
