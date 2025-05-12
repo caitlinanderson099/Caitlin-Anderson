@@ -147,9 +147,13 @@ nav {
   text-align: center;
   font-family: "Kodchasan", sans-serif;
   color: #fbfbfb;
-  background: linear-gradient(270deg, #AD95DD, #E4A7C5, #AD95DD, #E4A7C5);
-  background-size: 800% 800%;
-  animation: gradientMove 20s ease infinite;
+  background-image: url('/landing-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  /* background: linear-gradient(270deg, #AD95DD, #E4A7C5, #AD95DD, #E4A7C5); */
+  /* background-size: 800% 800%; */
+  /* animation: gradientMove 20s ease infinite; */
 
   .landing-content {
     .typed-intro {
