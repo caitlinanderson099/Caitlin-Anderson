@@ -1,6 +1,26 @@
 [
 
     {
+        "_id": "figmaplayground",
+        "project_name": "Figma Playground",
+        "project_type": "Web Design, UX Design",
+        "date": "2025",
+        "short_description": "This was created using the Spoonacular API",
+        "extended_description": " <strong> The text and information inside of this design is for template purposes. </strong> <br><br><strong>The original creator of this design's pinterest post and profileare linked below.</strong> <br><br>I had created this web design using Figma based on a Pinterest post I had seen which gave me the inspiration to try out different design styles. This web design really captivated me based on the fun pop of colour on such a dark background.",
+        "project_images": [
+            "/project-img/figma-play-mockup.png",
+            "/project-img/figma-play-mockup(2).png",
+            "/project-img/figma-play-mockup(3).png",
+            "/project-img/figma-play-mockup(4).png"
+        ],
+        "skills_used": "Figma",
+        "link": "https://nz.pinterest.com/pin/896990450795957188/",
+        "backend_link": "https://nz.pinterest.com/daho_van/",
+        "frontend_link":"https://www.figma.com/proto/fQwvf9WwJUk8q8M2s1qtb1/Untitled?page-id=0%3A1&node-id=168-2&viewport=-1532%2C-1421%2C0.16&t=WLudqo6MDV6DXwAj-1&scaling=min-zoom&content-scaling=fixed",
+        "is_featured": true
+    },
+
+    {
         "_id": "lesavorrecipefinder",
         "project_name": "Le Savor Recipe Finder API",
         "project_type": "Web Design, UX Design",
