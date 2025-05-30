@@ -164,26 +164,6 @@
     },
 
     {
-        "_id": "2402classportfolio",
-        "project_name": "2402 Class Portfolio",
-        "project_type": "Web Design, UX Design",
-        "date": "2024",
-        "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
-        "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
-        "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
-        "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
-        "project_images": [
-            "/project-img/art-of-food-mockup(1).png",
-            "/project-img/art-of-food-mockup(2).png",
-            "/project-img/art-of-food-mockup(3).png",
-            "/project-img/art-of-food-mockup(4).png"
-        ],
-        "skills_used": "Figma | GitHub | VSCode | HTML | CSS | Team Work | Time Management | Communication | Problem Solving",
-        "link": "https://formative-1-2-weld.vercel.app/",
-        "is_featured": false
-    },
-
-    {
         "_id": "wellyaccommodations",
         "project_name": "Welly Accommodations",
         "project_type": "Web Design, UX Design",
@@ -210,31 +190,32 @@
         "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
         "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
-        "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
+        "extended_description": "This logo redesign was created in 2023 as part of a class assessment focused on brand identity. The brief required us to select a local business with outdated branding and modernize its logo while keeping it recognizable. I chose Hutt Valley Taxis because their existing logo lacked visual impact and did not reflect the professionalism of their service.",
         "project_images": [
             "/project-img/business-card-mockup.png"
         ],
-        "skills_used": "Figma | GitHub | VSCode | HTML | CSS | Team Work | Time Management | Communication | Problem Solving",
+        "skills_used": "Time Management | Adobe Illustrator | Adobe PhotoShop",
         "is_featured": true
     },
     
     {
-        "_id": "sims4hamburgercakebox",
-        "project_name": "Sims 4 Hamburger Cake Box",
+        "_id": "simshamburgercakebox",
+        "project_name": "Sims Hamburger Cake Box",
         "project_type": "Product Design",
         "date": "2023",
         "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
         "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
-        "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
+        "extended_description": "This project was created as the final assessment for my Level 5 Web and Graphic Design course. I designed a custom cake box inspired by the hamburger cake from The Sims game franchise. The goal was to combine packaging design with pop culture elements, translating a virtual object into a functional and visually engaging real-world product.",
         "project_images": [
-            "/cake-box-1.jpg",
-            "/cake-box-2.jpg",
-            "/cake-box-3.jpg",
-            "/cake-box-4.jpg",
-            "/cake-box-5.jpg"
+            "/project-img/final (1).png",
+            "/project-img/final (4).png",
+            "/project-img/final (5).png",
+            "/project-img/final-opening (1).png",
+            "/project-img/dieline(1).png",
+            "/project-img/dieline(2).png"
         ],
-        "skills_used": "Figma | GitHub | VSCode | HTML | CSS | Team Work | Time Management | Communication | Problem Solving",
-        "is_featured": false
+        "skills_used": "Time Management | Adobe Illustrator | Problem Solving",
+        "is_featured": true
     }
 ]
