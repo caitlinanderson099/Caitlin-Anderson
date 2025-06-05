@@ -3,6 +3,8 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import Seo from '../components/Seo'
+
 
 // Icon Imports
 import { Download} from 'react-bootstrap-icons';
@@ -206,6 +208,10 @@ const Home = () => {
   return (
     <>
       <div className='home' id='home'>
+        <Seo 
+          title="Home | Caitlin Anderson Portfolio"
+          description="Explore the portfolio of Caitlin Anderson, a UX Designer & Web Developer based in Wellington, NZ. View featured projects and learn more about her skills."
+        />
         <Navbar/>
         <LandingPage/>
         <SkillSection/>

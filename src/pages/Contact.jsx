@@ -1,6 +1,8 @@
 // Base Imports
 import { useEffect } from 'react';
 import { useState } from 'react';
+import Seo from '../components/Seo'
+
 
 // Icon Imports
 import { EnvelopeFill, Instagram, Linkedin} from 'react-bootstrap-icons';
@@ -64,6 +66,10 @@ const Contact = () => {
   // MASTER RETURN
   return (
     <div className='contact-page'>
+        <Seo 
+          title="Get in Touch | Caitlin Anderson Portfolio"
+          description="Explore the portfolio of Caitlin Anderson, a UX Designer & Web Developer based in Wellington, NZ. View featured projects and learn more about her skills."
+        />
         <Navbar/>
         <Toaster position='top-right'/>
         <div className='contact-content' data-aos="fade-up" data-aos-duration="2000">

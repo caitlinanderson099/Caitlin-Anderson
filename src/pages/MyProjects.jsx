@@ -3,6 +3,8 @@ import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import Seo from '../components/Seo'
+
 
 // Package Imports
 import AOS from 'aos';
@@ -95,6 +97,10 @@ const MyProjects = () => {
   // My Projects Master Return
   return (
     <div className='my-projects'>
+      <Seo
+          title="My Projects | Caitlin Anderson Portfolio"
+          description="Explore the portfolio of Caitlin Anderson, a UX Designer & Web Developer based in Wellington, NZ. View featured projects and learn more about her skills."
+        />
       <Navbar/>
       <div className="projects-cont">
         <h1 data-aos="fade-up" data-aos-duration="2000">My <span>Projects</span> </h1>

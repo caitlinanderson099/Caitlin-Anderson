@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import Seo from '../components/Seo';
 
 // Component Imports
 import Footer from '../components/Footer';
@@ -63,6 +64,12 @@ const SingleProject = () => {
   // MASTER RETURN
   return (
     <div className='single-page'>
+      <Seo
+      title={`${project.project_name} | Caitlin Anderson Portfolio`}
+      description={project.short_description || 'A project from Caitlin Anderson’s portfolio demonstrating UX and web development skills.'}
+      image={project.project_images?.[0] || '/default-preview.png'} // Fallback image if none found
+      url={`https://yourdomain.com/singleproject/${project._id}`} // Replace with your domain
+    />
       <Navbar/> 
       {/* Single Page Details */}
       <div className='single-project-details'>
