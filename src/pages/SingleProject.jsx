@@ -67,8 +67,8 @@ const SingleProject = () => {
       <Seo
       title={`${project.project_name} | Caitlin Anderson Portfolio`}
       description={project.short_description || 'A project from Caitlin Anderson’s portfolio demonstrating UX and web development skills.'}
-      image={project.project_images?.[0] || '/default-preview.png'} // Fallback image if none found
-      url={`https://yourdomain.com/singleproject/${project._id}`} // Replace with your domain
+      image={project.project_images?.[0] || '/caitlin_logo2.png'}
+      url={`https://yourdomain.com/singleproject/${project._id}`}
     />
       <Navbar/> 
       {/* Single Page Details */}

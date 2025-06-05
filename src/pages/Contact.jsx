@@ -69,6 +69,7 @@ const Contact = () => {
         <Seo 
           title="Get in Touch | Caitlin Anderson Portfolio"
           description="Explore the portfolio of Caitlin Anderson, a UX Designer & Web Developer based in Wellington, NZ. View featured projects and learn more about her skills."
+          url="https://caitlinandersondesign.co.nz/"
         />
         <Navbar/>
         <Toaster position='top-right'/>

@@ -100,6 +100,7 @@ const MyProjects = () => {
       <Seo
           title="My Projects | Caitlin Anderson Portfolio"
           description="Explore the portfolio of Caitlin Anderson, a UX Designer & Web Developer based in Wellington, NZ. View featured projects and learn more about her skills."
+          url="https://caitlinandersondesign.co.nz/"
         />
       <Navbar/>
       <div className="projects-cont">

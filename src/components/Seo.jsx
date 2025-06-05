@@ -5,8 +5,9 @@ const SEO = ({
   title = "Caitlin Anderson | UX Designer & Web Developer",
   description = "I'm Caitlin Anderson, a Web & UX Designer based in Wellington, NZ. I craft beautiful, user-friendly websites and apps for hospitality and retail businesses.",
   keywords = "UX designer, web designer, Wellington, portfolio, web development, React",
-  image = "/preview-img.png",
-  url = "https://yourdomain.com"
+  url = "https://caitlinandersondesign.co.nz",
+  image = "https://caitlinandersondesign.co.nz/caitlin_logo2.png",
+
 }) => {
   return (
     <Helmet>
@@ -14,12 +15,17 @@ const SEO = ({
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       <meta name="author" content="Caitlin Anderson" />
+      <link rel="canonical" href={url} />
 
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
       <meta property="og:url" content={url} />
       <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={image} />
 
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Helmet>
@@ -34,4 +40,5 @@ SEO.propTypes = {
   url: PropTypes.string,
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default SEO;
