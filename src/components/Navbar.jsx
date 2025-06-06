@@ -24,7 +24,7 @@ const Navbar = () => {
             <header>
               <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
                 <a href="/" className="navbar-brand">
-                <img src="/caitlin_logo2.png" alt="Portfolio Avatar"/>
+                <img src="/caitlins-logo.png" alt="Portfolio Avatar"/>
                 </a>
                 <button className="navbar-toggle" onClick={toggleMenu}>
                   ☰

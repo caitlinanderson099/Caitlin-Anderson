@@ -1,5 +1,7 @@
 /* ---------- BASE WEBSITE STYLING FILE ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Kite+One&family=Kiwi+Maru&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');* {
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&family=Kiwi+Maru&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kameron:wght@400..700&family=League+Spartan:wght@100..900&family=Oleo+Script:wght@400;700&display=swap');
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,7 +11,7 @@
 :root {
   --main-font: 'Kodchasan', serif;
   --secondary-font: 'Kiwi Maru', serif;
-  --background-color: linear-gradient(135deg, #AD95DD, #E4A7C5);
+  --background-color: linear-gradient(135deg, #c7e5ff, #a89fe8);
 }
 
 /* Default Body CSS */
@@ -53,8 +55,9 @@ nav {
   color: #101110;
   text-decoration: none;
   img {
-    width: 90px;
-    height: 90px;
+    width: 140px;
+    height: 140px;
+    border: 1px solid #101110;
     border-radius: 50%;
   }
 }
@@ -85,12 +88,12 @@ nav {
   bottom: -3px;
   width: 0;
   height: 2px;
-  background-color: #682c9c;
+  background-color: #a89fe8;
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
 .navbar-menu a:hover {
-  color: #682c9c;
+  color: #a89fe8;
 }
 .navbar-menu a:hover::after {
   width: 100%;
@@ -128,12 +131,12 @@ nav {
   bottom: -3px;
   width: 0;
   height: 2px;
-  background-color: #682c9c;
+  background-color: #a89fe8;
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
 .inner a:hover {
-  color: #682c9c;
+  color: #a89fe8;
 }
 .inner a:hover::after {
   width: 100%;
@@ -145,27 +148,22 @@ nav {
 .landing-page {
   padding: 100px;
   text-align: center;
-  font-family: "Kodchasan", sans-serif;
-  color: #fbfbfb;
-  height: 60vh;
-  background: linear-gradient(270deg, #AD95DD, #E4A7C5, #AD95DD, #E4A7C5);
-  background-size: 800% 800%;
-  animation: gradientMove 20s ease infinite; 
+  color: #101110;
+  background-image: url('/landing-bg.png');
+  background-size: cover;
+  background-position: center;
 
-  .landing-text {
+.landing-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
     padding: 20px;
     margin-bottom: 50px;
-    background: rgba(255, 255, 255, 0.505);
-    border-radius: 20px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.8px);
-    -webkit-backdrop-filter: blur(5.8px);
+    position: relative;
     h1 {
       font-size: 3em;
+        font-family: "Anton", sans-serif;
     }
     h2 {
       font-size: 1.6em;
@@ -174,35 +172,46 @@ nav {
       font-size: 23px;
     }
     span {
-      font-family: "Kite One", sans-serif;
-      color: #fbfbfb;
+    font-family: "Oleo Script", system-ui;
+      color: #101110;
     }
     .landing-span {
       text-decoration: underline;
       font-style: italic;
-      color: #AD95DD;
+      color: #fbfbfb;
+      font-family: var(--main-font);
     }
     .typed-intro {
-      font-family: var(--secondary-font);
-      font-weight: bold;
-      font-size: 1em;
-      color: #fbfbfb;
+    font-family: "Oleo Script", system-ui;
+      font-size: 1.2em;
+      color: #101110;
     }
-  }
 }
 
-/* Keyframes for gradient animation for Landing Page */
-@keyframes gradientMove {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.landing-text::before,
+.landing-text::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 5px solid white;
 }
+
+.landing-text::before {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+}
+
+.landing-text::after {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
+}
+}
+
 
 /* About Section CSS */
 .about-section {
@@ -290,7 +299,6 @@ nav {
 .cv-button {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #4CAF50;
   color: white;
   font-weight: bold;
   border: none;
@@ -320,7 +328,7 @@ nav {
     text-align: center;
     margin: 30px 0px;
     span {
-      color: #AD95DD;
+      color: #a89fe8;
       text-decoration: underline;
     }
   }
@@ -346,7 +354,7 @@ nav {
       object-fit: cover;
     }
     .number {
-      background-color: #AD95DD;
+      background-color: #a89fe8;
       font-weight: bold;
       color: #fbfbfb;
       padding: 3px;
@@ -367,7 +375,7 @@ nav {
     text-align: center;
     margin: 30px 0px;
     span {
-      color: #AD95DD;
+      color: #a89fe8;
       text-decoration: underline;
     }
   }
@@ -620,7 +628,7 @@ nav {
               padding: 10px;
             }
             .swiper-pagination-bullet-active {
-              background-color: #AD95DD;
+              background-color: #a89fe8;
             }
           }
           /* End of Swiper CSS */
@@ -663,12 +671,12 @@ nav {
             left: 50%;
             width: 0;
             height: 2px;
-            background-color: #AD95DD;
+            background-color: #a89fe8;
             transition: width 0.3s ease, left 0.3s ease;
           }
 
           a:hover {
-            color: #AD95DD;
+            color: #a89fe8;
           }
 
           a:hover::after {
@@ -767,7 +775,7 @@ nav {
           transition: all 0.3s ease;
         }
         svg:hover {
-          color: #AD95DD;
+          color: #a89fe8;
           cursor: pointer;
           transition: all 0.3s ease;
         }
