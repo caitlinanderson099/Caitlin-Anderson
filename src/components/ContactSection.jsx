@@ -45,7 +45,7 @@ const ContactSection = () => {
       <div className="contact-section"  id="contactSection" data-aos="fade-up" data-aos-duration="2000">
         <Toaster position='top-right'/>
             <div className="left-side">
-            <img src="/project-img/jewellery-supreme-mockup(3).png" alt="" />
+            <img src="/project-img/jewellery-supreme-mockup(3).png" alt="Mockup of jewellery store website" />
             </div>
             <div className="right-side">
             <h2>Let&apos;s Get <span>Connected!</span></h2>
