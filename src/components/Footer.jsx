@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <footer>
         <div className="inner">
-            <a href=""><Instagram/> @caitlinanderson099</a>
+            <a href="https://www.instagram.com/caitlinandersondesign"><Instagram/> @caitlinandersondesign</a>
             <h4>Caitlin Anderson © 2025</h4>
-            <a href=""><Linkedin/> @caitlinanderson099</a>
+            <a href="www.linkedin.com/in/caitlin-anderson099"><Linkedin/> @caitlin-anderson099</a>
         </div>
     </footer>
   )

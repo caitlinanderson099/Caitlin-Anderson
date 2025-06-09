@@ -37,10 +37,10 @@ const Navbar = () => {
                     Get In Touch
                   </a>
                   <div className={`navbar-menu icon-cont ${menuOpen ? 'active' : ''}`}>
-                     <a href="https://www.linkedin.com/in/caitlin-anderson-75bb16270/" onClick={() => setMenuOpen(false)}>
+                     <a href="www.linkedin.com/in/caitlin-anderson099" onClick={() => setMenuOpen(false)}>
                     <Linkedin/>
                   </a>
-                  <a href="https://www.instagram.com/caitlinanderson099" onClick={() => setMenuOpen(false)}>
+                  <a href="https://www.instagram.com/caitlinandersondesign" onClick={() => setMenuOpen(false)}>
                     <Instagram/>
                   </a>
                   <a href="https://github.com/caitlinanderson099" onClick={() => setMenuOpen(false)}>

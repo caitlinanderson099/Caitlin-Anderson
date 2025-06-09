@@ -111,12 +111,16 @@ nav {
 }
 
 /* ------------------- Footer CSS ---------------- */
+footer {
+background-color: #fbfbfb;
+  box-shadow: 1px 1px 5px rgba(68, 63, 63, 0.75);
+  position: sticky;
+}
 .inner {
   display: flex;
   justify-content: space-between;
   padding: 20px;
   width: 100%;
-  background-color: #fbfbfb;
 }
 .inner a {
   position: relative;

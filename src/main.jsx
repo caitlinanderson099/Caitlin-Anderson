@@ -8,6 +8,6 @@ createRoot(document.getElementById('root')).render(
   <HelmetProvider>
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
   </HelmetProvider>
 )
