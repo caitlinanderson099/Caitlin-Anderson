@@ -366,8 +366,10 @@ background-color: #fbfbfb;
 }
 
 /* My Skills Section CSS */
-.skill-section {
+.service-section {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
   h2 {
     font-size: 3em;
     text-align: center;
@@ -378,7 +380,7 @@ background-color: #fbfbfb;
     }
   }
 }
-.skill-count-section {
+.service-count-section {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 1rem;
@@ -394,17 +396,9 @@ background-color: #fbfbfb;
     border-radius: 20px;
     padding: 20px;
     img {
-      width: 110px;
+      width: 100px;
       height: 100px;
       object-fit: cover;
-    }
-    .number {
-      background-color: #a89fe8;
-      font-weight: bold;
-      color: #fbfbfb;
-      padding: 3px;
-      width: 300px;
-      border-radius: 20px;
     }
   }
 }
@@ -973,8 +967,8 @@ background-color: #fbfbfb;
     }
   }
 
-  .skill-count-section {
-    grid-template-columns: repeat(2, 1fr);
+  .service-count-section {
+    grid-template-columns: 1fr;
   }
 
   .project-cards {
@@ -1050,7 +1044,7 @@ background-color: #fbfbfb;
     }
   }
 
-  .skill-count-section {
+  .service-count-section {
     grid-template-columns: 1fr;
   }
 
