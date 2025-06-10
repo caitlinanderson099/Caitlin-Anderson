@@ -94,6 +94,7 @@ const SingleProject = () => {
                   alt={`${project.project_name} ${index + 1}`}
                   onClick={() => openModal(image)}
                   style={{ cursor: 'pointer' }}
+                  loading="lazy"
                 />
               </SwiperSlide>
               ))}
@@ -126,7 +127,7 @@ const SingleProject = () => {
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <button className="modal-close" onClick={closeModal}>X</button>
-            <img src={modalImage} alt="Modal" />
+            <img src={modalImage} alt="Modal" loading="lazy"/>
           </div>
         </div>
       )}

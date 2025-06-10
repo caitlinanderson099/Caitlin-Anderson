@@ -47,7 +47,7 @@ const MyProjects = () => {
       : project.project_images;
         return (
           <div className='project-card' key={project._id} onClick={() => handleOpenProject(project._id)}>
-            <img src={imageUrl} className='project-image' alt="first image of the project" />
+            <img src={imageUrl} className='project-image' alt="first image of the project" loading="lazy"/>
             <div className="project-details">
             <h3> {project.project_name}</h3>
             <h4> {project.project_type}</h4>
