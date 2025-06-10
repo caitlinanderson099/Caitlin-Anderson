@@ -1,6 +1,21 @@
 [
 
     {
+        "_id": "mytodolist",
+        "project_name": "My To Do List",
+        "project_type": "Web Design, UX Design",
+        "date": "2025",
+        "extended_description": "This app was created using React + Vite to allow users to use the app for all of their to do list needs. Using localStorage, users can refresh and come back to site and still have their tasks stored. Users can create a task, edit the task, delete the task and check off their tasks by a simple click of a button. Users can also toggle between light mode and dark mode for extra accessiblity.",
+        "project_images": [
+            "/project-img/todo-mockup.png"
+        ],
+        "skills_used": "VSCode | React + Vite | GitHub | Vercel",
+        "link": "https://todo-app-six-iota-39.vercel.app/",
+        "backend_link": "https://github.com/caitlinanderson099/todo-app",
+        "is_featured": true
+    },
+
+    {
         "_id": "lesavorrecipefinder",
         "project_name": "Le Savor Recipe Finder API",
         "project_type": "Web Design, UX Design",
@@ -192,7 +207,8 @@
         "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
         "extended_description": "This logo redesign was created in 2023 as part of a class assessment focused on brand identity. The brief required us to select a local business with outdated branding and modernize its logo while keeping it recognizable. I chose Hutt Valley Taxis because their existing logo lacked visual impact and did not reflect the professionalism of their service.",
         "project_images": [
-            "/project-img/business-card-mockup.png"
+            "/project-img/business-card-mockup(1).png",
+            "/project-img/business-card-mockup(2).png"
         ],
         "skills_used": "Time Management | Adobe Illustrator | Adobe PhotoShop",
         "is_featured": true
@@ -208,12 +224,13 @@
         "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
         "extended_description": "This project was created as the final assessment for my Level 5 Web and Graphic Design course. I designed a custom cake box inspired by the hamburger cake from The Sims game franchise. The goal was to combine packaging design with pop culture elements, translating a virtual object into a functional and visually engaging real-world product.",
         "project_images": [
-            "/project-img/final (1).png",
-            "/project-img/final (4).png",
-            "/project-img/final (5).png",
-            "/project-img/final-opening (1).png",
-            "/project-img/dieline(1).png",
-            "/project-img/dieline(2).png"
+            "/project-img/cake-box-mockup(1).png",
+            "/project-img/cake-box-mockup(2).png",
+            "/project-img/cake-box-mockup(3).png",
+            "/project-img/cake-box-mockup(4).png",
+            "/project-img/cake-box-mockup(5).png"
+
+
         ],
         "skills_used": "Time Management | Adobe Illustrator | Problem Solving",
         "is_featured": true
