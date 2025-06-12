@@ -256,6 +256,39 @@ background-color: #fbfbfb;
 }
 }
 
+#clock {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* optional styling */
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: monospace;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* subtle shadow */
+  z-index: 1000; /* make sure it’s above other elements */
+}
+
+/* #donation {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  background-color: rgba(255, 239, 239, 0.95);
+  color: #b30000;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#donation:hover {
+  background-color: rgba(255, 200, 200, 1);
+} */
 
 /* About Section CSS */
 .about-section {
@@ -1015,10 +1048,24 @@ background-color: #fbfbfb;
     width: 100%;
   }
 
+  #clock {
+    font-size: 0.9rem;
+    bottom: 15px;
+    right: 15px;
+    padding: 6px 10px;
+  }
+
 }
 
 /* For mobile devices */
 @media screen and (max-width: 768px) {
+
+  #clock {
+    font-size: 0.9rem;
+    bottom: 15px;
+    right: 15px;
+    padding: 6px 10px;
+  }
 
   .landing-page .landing-text {
     h1 {
