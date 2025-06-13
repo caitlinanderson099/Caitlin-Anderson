@@ -44,55 +44,52 @@ const ContactSection = () => {
     return (
       <div className="contact-section"  id="contactSection" data-aos="fade-up" data-aos-duration="2000">
         <Toaster position='top-right'/>
-            <div className="left-side">
-            <img src="/project-img/jewellery-supreme-mockup(3).png" alt="Mockup of jewellery store website" />
-            </div>
-            <div className="right-side">
-            <h2>Let&apos;s Get <span>Connected!</span></h2>
-            <p>Feel free to fill out the form below and I will get back to you ASAP</p>
+            <div className='contact-details'>
+              <h2>Let&apos;s Get <span>Connected!</span></h2>
+              <p>Feel free to fill out the form below and I will get back to you ASAP</p>
 
-            <form onSubmit={handleSubmit}>
+              <form onSubmit={handleSubmit}>
 
-                  <label>Name:</label>
-                  <input 
-                    type="text"
-                    name='name'
-                    value={formData.name}
-                    onChange={handleChange}
-                    required 
-                  />
+                    <label>Name:</label>
+                    <input 
+                      type="text"
+                      name='name'
+                      value={formData.name}
+                      onChange={handleChange}
+                      required 
+                    />
 
-                  <label>Email:</label>
-                  <input 
-                    type="email"
-                    name='email'
-                    value={formData.email}
-                    onChange={handleChange}
-                    required 
-                  />
+                    <label>Email:</label>
+                    <input 
+                      type="email"
+                      name='email'
+                      value={formData.email}
+                      onChange={handleChange}
+                      required 
+                    />
 
-                  <label>Subject:</label>
-                  <input 
-                    type="text"
-                    name='subject'
-                    value={formData.subject}
-                    onChange={handleChange}
-                    required 
-                  />
+                    <label>Subject:</label>
+                    <input 
+                      type="text"
+                      name='subject'
+                      value={formData.subject}
+                      onChange={handleChange}
+                      required 
+                    />
 
-                  <label>Message:</label>
-                  <textarea
-                    name='message'
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                  />
+                    <label>Message:</label>
+                    <textarea
+                      name='message'
+                      value={formData.message}
+                      onChange={handleChange}
+                      required
+                    />
 
-                  <button type='submit'> Send Your Message </button>
+                    <button type='submit'> Send Your Message </button>
 
 
 
-                </form>
+              </form>
             </div>
           
       </div>

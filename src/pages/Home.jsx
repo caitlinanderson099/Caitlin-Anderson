@@ -6,6 +6,7 @@ import axios from 'axios';
 import Seo from '../components/Seo'
 
 
+
 // Icon Imports
 import { Download} from 'react-bootstrap-icons';
 
@@ -62,7 +63,7 @@ const Home = () => {
       <div className="about-section" data-aos="fade-up" data-aos-duration="2000">
         <div className="about-cont" >
         <div className='left-side'>
-          <h2>Nice to <span>Meet</span> You!</h2>
+          <h2><span>Thank</span> You For Stopping By!</h2>
           <h3>My name is Caitlin Anderson</h3>
           <p> I&apos;m a Web & UX Design graduate based in Wellington, New Zealand, with a passion for creating thoughtful, user-friendly digital experiences. I specialize in hospitality and retail design, blending creativity with strategy to craft websites and apps that not only look great but work beautifully.</p>
           <div className="button-cont">
@@ -175,29 +176,36 @@ const Home = () => {
 
   // Landing Page Component
   const LandingPage = () => {
-    return (
-      <>
-      <div className='landing-page'>
-        <div className='landing-content' data-aos="fade-up" data-aos-duration="3000">
+  return (
+    <>
+      <div className="landing-page">
+        <div
+          className="landing-content"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <div className="landing-text">
             <h1>
-              <span className='header-span'>W</span>
-              <span className='header-span'>E</span>
-              <span className='header-span'>L</span>
-              <span className='header-span'>C</span>
-              <span className='header-span'>O</span>
-              <span className='header-span'>M</span>
-              <span className='header-span'>E</span>
-              <span className='header-span'>!</span>
+              <span className="header-span">W</span>
+              <span className="header-span">E</span>
+              <span className="header-span">L</span>
+              <span className="header-span">C</span>
+              <span className="header-span">O</span>
+              <span className="header-span">M</span>
+              <span className="header-span">E</span>
+              <span className="header-span">!</span>
             </h1>
-            <p>My name is Caitlin and I’m a <br></br><span className='landing-span'>UX Designer & Web Developer</span></p>
-            <TypedUpIntro/>
+            <p>
+              My name is Caitlin and I’m a <br />
+              <span className="landing-span">UI/UX Designer & Web Developer</span>
+            </p>
+            <TypedUpIntro />
           </div>
         </div>
-    </div>
+      </div>
     </>
-    )
-  }
+  );
+};
 
   // Featured Projects Section Component
   const FeaturedSection = () => {
@@ -228,7 +236,7 @@ const Home = () => {
   
     return (
       <div className='featured-section' data-aos="fade-up" data-aos-duration="2000">
-        <h2 className='section-title'> My <span>Latest</span> Projects</h2>
+        <h2 className='section-title'> <span>Latest</span> Projects</h2>
         <div className="project-cards">
           {projects.map(project => (
             <div className="project-card" key={project._id} onClick={() => handleOpenProject(project._id)}>
