@@ -6,7 +6,7 @@ const SEO = ({
   description = "I'm Caitlin Anderson, a Web & UX Designer based in Wellington, NZ. I craft beautiful, user-friendly websites and apps for hospitality and retail businesses.",
   keywords = "UX designer, web designer, Wellington, portfolio, web development, React",
   url = "https://caitlinandersondesign.co.nz",
-  image = "https://caitlinandersondesign.co.nz/caitlin_logo2.png",
+  image = "https://caitlinandersondesign.co.nz/caitlins-logo.png",
 
 }) => {
   return (
