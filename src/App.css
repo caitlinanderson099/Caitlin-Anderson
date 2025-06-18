@@ -317,7 +317,7 @@ nav {
   grid-template-columns: repeat(2,1fr);
   gap: 2rem;
   padding: 20px;
-  color: #fbfbfb;
+  color: #101110;
   background: var(--background-color);
   .left-side {
     display: flex;
