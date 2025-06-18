@@ -30,8 +30,8 @@ const Navbar = () => {
                   ☰
                 </button>
                 <div className={`navbar-menu ${menuOpen ? 'active' : ''}`}>
-                  <a href="#my-projects" onClick={() => setMenuOpen(false)}>
-                    My Projects
+                  <a href="#my-work" onClick={() => setMenuOpen(false)}>
+                    My Work
                   </a>
                   <a href="#get-in-touch" onClick={() => setMenuOpen(false)}>
                     Get In Touch

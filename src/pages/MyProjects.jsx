@@ -98,13 +98,13 @@ const MyProjects = () => {
   return (
     <div className='my-projects'>
       <Seo
-          title="My Projects | Caitlin Anderson Portfolio"
+          title="My Work | Caitlin Anderson Portfolio"
           description="Explore the portfolio of Caitlin Anderson, a UX Designer & Web Developer based in Wellington, NZ. View featured projects and learn more about her skills."
           url="https://caitlinandersondesign.co.nz/"
         />
       <Navbar/>
       <div className="projects-cont">
-        <h1 data-aos="fade-up" data-aos-duration="2000">My <span>Projects</span> </h1>
+        <h1 data-aos="fade-up" data-aos-duration="2000">My Work</h1>
         <FeaturedSection/>
       </div>
       <Footer/>

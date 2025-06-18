@@ -16,7 +16,6 @@ const App = () => {
         <Analytics />
         <Links/>
         <p id='clock'></p>
-        {/* <p id="donation">Support Us 💖</p> */}
       </HashRouter>
     </>
   )

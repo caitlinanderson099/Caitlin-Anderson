@@ -231,12 +231,12 @@ const Home = () => {
     }
 
     const handleProjects = () => {
-      navigate('/my-projects')
+      navigate('/my-work')
     }
   
     return (
       <div className='featured-section' data-aos="fade-up" data-aos-duration="2000">
-        <h2 className='section-title'> <span>Latest</span> Projects</h2>
+        <h2 className='section-title'> <span>Latest</span> Works</h2>
         <div className="project-cards">
           {projects.map(project => (
             <div className="project-card" key={project._id} onClick={() => handleOpenProject(project._id)}>
@@ -248,7 +248,7 @@ const Home = () => {
             </div>
           ))}
         </div>
-        <button className='see-all' onClick={handleProjects}>View All Projects</button>
+        <button className='see-all' onClick={handleProjects}>View More</button>
       </div>
     );
   };
@@ -258,7 +258,7 @@ const Home = () => {
   // Home Page Master Return
   return (
     <>
-      <div className='home' id='home'>
+      <div className='home' id='home' style={{ position: "relative", overflow: "hidden" }}>
         <Seo 
           title="Home | Caitlin Anderson Portfolio"
           description="Explore the portfolio of Caitlin Anderson, a UX Designer & Web Developer based in Wellington, NZ. View featured projects and learn more about my skills."
