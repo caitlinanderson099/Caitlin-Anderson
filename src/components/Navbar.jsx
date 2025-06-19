@@ -8,6 +8,8 @@ import { Instagram, Linkedin, Github } from 'react-bootstrap-icons';
 // Component Imports
 import MobileMenu from "./MobileMenu"; // adjust path as needed
 
+import 'aos/dist/aos.css';
+
 
 
 const Navbar = () => {
@@ -21,7 +23,7 @@ const Navbar = () => {
   };
       
           return (
-            <header>
+            <header data-aos="fade-down" data-aos-duration="2000">
               <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
                 <a href="/" className="navbar-brand">
                 <img src="/caitlins-logo.png" alt="Portfolio Avatar" loading="lazy"/>
