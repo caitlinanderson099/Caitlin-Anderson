@@ -1,6 +1,23 @@
 [
 
     {
+        "_id": "drinkmenus",
+        "project_name": "Drink Menus",
+        "project_type": "Graphic Design",
+        "date": "2025",
+        "extended_description": "Created these drink menus inspired by the playful retro style with a modern twist. Featuring soft pastel backgrounds, wavy borders, and whimsical illustrations, each menu captures a nostalgic mid-century vibe while remaining clean and modern. The script-style headings and vibrant color palette evoke a sense of fun and celebration, while the simple layout keeps it user-friendly. Designed to add charm and personality to any bar or event, these menus strike the perfect balance between vintage flair and contemporary style.",
+        "project_images": [
+            "/project-img/menu-mockup1.png",
+            "/project-img/menu-mockup2.png",
+            "/project-img/menu-mockup3.png"
+        ],
+        "skills_used": "Canva",
+        "link": "",
+        "backend_link": "",
+        "is_featured": true
+    },
+
+    {
         "_id": "mytodolist",
         "project_name": "My To Do List",
         "project_type": "Web Design, UX Design",
