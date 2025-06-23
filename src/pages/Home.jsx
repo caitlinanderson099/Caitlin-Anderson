@@ -146,7 +146,7 @@ const Home = () => {
 
         <div className="service-cont">
 
-          <h2>My <span>Services</span></h2>
+          <h2>My <span>Skills</span></h2>
 
           <div className='service-count-section' data-aos="fade-up" data-aos-duration="2000">
 
