@@ -65,7 +65,7 @@ const SingleProject = () => {
   return (
     <div className='single-page'>
       <Seo
-      title={`${project.project_name} | Caitlin Anderson Portfolio`}
+      title={`${project.project_name} | Caitlin Anderson Design`}
       description={project.short_description || 'A project from Caitlin Anderson’s portfolio demonstrating UX and web development skills.'}
       image={project.project_images?.[0] || '/caitlin_logo2.png'}
       url={`https://www.caitlinandersondesign.co.nz/singleproject/${project._id}`}
