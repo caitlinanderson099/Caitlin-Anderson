@@ -50,7 +50,8 @@
         "link": "https://le-savour-recipe-finder.vercel.app/",
         "backend_link": "https://spoonacular.com/food-api",
         "frontend_link": "https://github.com/caitlinanderson099/recipe-finder-using-api",
-        "is_featured": true
+        "is_featured": true,
+        "is_favourite": true
     },
 
     {
@@ -59,7 +60,8 @@
         "project_type": "Graphic Design",
         "date": "2025",
         "short_description": "This was created using Canva",
-        "extended_description": "<p><em>Created for work purposes.</em> I had designed these promotional posters for Fermented Bar & Eatery in Brewtown Upper Hutt. The Fermented staff wanted to engage more customers with their daily specials on food and drinks and had asked me to design them some posters that would help bring more customers in. I had a meeting with management on what sort of style they wanted to portray and we came up with a colourful and cutesy image that would appeal to people of all ages.</p><br><p><strong>Posters created:</strong></p><ul><li><strong>Tuesday:</strong> Buy 1 Dessert Get 1 Free</li><li><strong>Wednesday:</strong> Buy 1 Pizza Get Free Fries</li><li><strong>Wednesday Night:</strong> Believe it or not quiz nights</li><li><strong>Thursday - Tradie Thursday:</strong> Come in with work uniform and get house beers & wines from $9</li><li><strong>Friday & Saturday - Fun Day:</strong> Get $10 classic shots & $12 classic cocktails</li><li><strong>Sunday:</strong> Get 2 Regular Bubble Teas for $15</li></ul>",
+        "extended_description": "<p><em>Created for work purposes.</em> I designed these promotional posters for Fermented Bar & Eatery in Brewtown, Upper Hutt. The Fermented staff wanted to attract more customers with their daily specials on food and drinks, so they asked me to create posters that would help increase engagement. After meeting with management to discuss the desired style, we decided on a colourful and playful design that would appeal to people of all ages.</p><br><p><strong>Posters created:</strong></p><p><strong>Tuesday:</strong> Buy 1 Dessert, Get 1 Free</p><p><strong>Wednesday:</strong> Buy 1 Pizza, Get Free Fries</p><p><strong>Wednesday Night:</strong> Believe It or Not Quiz Nights</p><p><strong>Thursday – Tradie Thursday:</strong> Come in wearing a work uniform and get house beers & wines from $9</p><p><strong>Friday & Saturday – Fun Day:</strong> Get $10 Classic Shots & $12 Classic Cocktails</p><p><strong>Sunday:</strong> Get 2 Regular Bubble Teas for $15</p>"
+,
         "project_images": [
             "/project-img/poster-mockup(1).png",
             "/project-img/poster-mockup(2).png",
@@ -132,7 +134,8 @@
         ],
         "skills_used": "Figma | GitHub | VSCode | HTML | CSS | Javascript | Fullpage Js | Time Management | Problem Solving",
         "link": "https://formative-2-2-single-page-app.vercel.app/",
-        "is_featured": true
+        "is_featured": true,
+        "is_favourite": true
     },
 
     {
@@ -250,6 +253,7 @@
 
         ],
         "skills_used": "Time Management | Adobe Illustrator | Problem Solving",
-        "is_featured": true
+        "is_featured": true,
+        "is_favourite": true
     }
 ]

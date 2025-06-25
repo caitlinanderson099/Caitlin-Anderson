@@ -208,50 +208,59 @@ const Home = () => {
 };
 
   // Featured Projects Section Component
-  const FeaturedSection = () => {
-    const [projects, setProjects] = useState([]);
-    const navigate = useNavigate();
-  
-    useEffect(() => {
-      axios.get('/PROJECTS.json')
-        .then(response => {
-          const latest = response.data.slice(0, 3);
-          setProjects(latest);
-        })
-        .catch(error => {
-          console.error('Error fetching project data:', error);
-        });
-    }, []);
-  
-     // Open Project Function
-     const handleOpenProject = (projectId) => {
-      window.scrollTo(0,0);
-      let path = `/singleproject/${projectId}`;
-      navigate(path);
-    }
+ const FeaturedSection = () => {
+  const [projects, setProjects] = useState([]);
+  const navigate = useNavigate();
 
-    const handleProjects = () => {
-      navigate('/my-work')
-    }
-  
-    return (
-      <div className='featured-section' data-aos="fade-up" data-aos-duration="2000">
-        <h2 className='section-title'> <span>Latest</span> Works</h2>
-        <div className="project-cards">
-          {projects.map(project => (
-            <div className="project-card" key={project._id} onClick={() => handleOpenProject(project._id)}>
-              <img src={project.project_images?.[0]} alt={project.title} loading="lazy"/>
-              <div className="project-details">
-                <h3>{project.project_name}</h3>
-                <h3>{project.project_type} | {project.date}</h3>
-              </div>
-            </div>
-          ))}
-        </div>
-        <button className='see-all' onClick={handleProjects}>View More</button>
-      </div>
-    );
+  useEffect(() => {
+    axios.get('/PROJECTS.json')
+      .then(response => {
+        const latest = response.data.slice(0, 3);
+        setProjects(latest);
+      })
+      .catch(error => {
+        console.error('Error fetching project data:', error);
+      });
+  }, []);
+
+  // Open Project Function
+  const handleOpenProject = (projectId) => {
+    window.scrollTo(0, 0);
+    let path = `/singleproject/${projectId}`;
+    navigate(path);
   };
+
+  const handleProjects = () => {
+    navigate('/my-projects');
+  };
+
+  return (
+    <div className='featured-section' data-aos="fade-up" data-aos-duration="2000">
+      <h2 className='section-title'> <span>Latest</span> Works</h2>
+      <div className="project-cards">
+        {projects.map(project => (
+          <div className="project-card" key={project._id} onClick={() => handleOpenProject(project._id)}>
+            
+            {/* Favourite Badge */}
+            {project.is_favourite && (
+              <div className="favourite-badge">
+                <span className="icon">❤️</span>
+                <span className="label">Creator&apos;s Favourite</span>
+              </div>
+            )}
+
+            <img src={project.project_images?.[0]} alt={project.title} loading="lazy" />
+            <div className="project-details">
+              <h3>{project.project_name}</h3>
+              <h3>{project.project_type} | {project.date}</h3>
+            </div>
+          </div>
+        ))}
+      </div>
+      <button className='see-all' onClick={handleProjects}>View More</button>
+    </div>
+  );
+};
   
 
 

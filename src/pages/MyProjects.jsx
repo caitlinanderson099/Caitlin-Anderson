@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 // Base Imports
 import { useState } from "react";
 import { useEffect } from "react";
@@ -38,28 +39,42 @@ const MyProjects = () => {
   }
 
   // Projects Map Data
-  // eslint-disable-next-line react/prop-types
-  const Projects = ({projects}) => {
-      // eslint-disable-next-line react/prop-types
-      const mappedProjects = projects.map((project) => {
-        const imageUrl = Array.isArray(project.project_images)
+  const Projects = ({ projects }) => {
+  const mappedProjects = projects.map((project) => {
+    const imageUrl = Array.isArray(project.project_images)
       ? project.project_images[0]
       : project.project_images;
-        return (
-          <div className='project-card' key={project._id} onClick={() => handleOpenProject(project._id)}>
-            <img src={imageUrl} className='project-image' alt="first image of the project" loading="lazy"/>
-            <div className="project-details">
-            <h3> {project.project_name}</h3>
-            <h4> {project.project_type}</h4>
-            </div>
-          </div>
-        )
-      });
 
-      return (
-        <>{mappedProjects}</>
-      )
-  }
+    return (
+      <div
+        className='project-card'
+        key={project._id}
+        onClick={() => handleOpenProject(project._id)}
+      >
+        {/* Optional: Add a badge or icon */}
+        {project.is_favourite && (
+  <div className="favourite-badge">
+    <span className="icon">❤️</span>
+    <span className="label">Creator&apos;s Favourite</span>
+  </div>
+)}
+
+        <img
+          src={imageUrl}
+          className='project-image'
+          alt="first image of the project"
+          loading="lazy"
+        />
+        <div className="project-details">
+          <h3>{project.project_name}</h3>
+          <h4>{project.project_type}</h4>
+        </div>
+      </div>
+    );
+  });
+
+  return <>{mappedProjects}</>;
+};
 
   // Fetching Projects
   useEffect(() => {
