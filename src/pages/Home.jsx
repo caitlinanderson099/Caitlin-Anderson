@@ -73,7 +73,7 @@ const Home = () => {
             </a>          
           </div>
         </div>
-          <img src="/self-portrait.png" alt="Photo of myself" loading="lazy" />
+          <img src="/self-portrait2.jpg" alt="Photo of myself" loading="lazy" />
           <div>
           </div>
         </div>
@@ -262,7 +262,7 @@ const Home = () => {
         <Seo 
           title="Home | Caitlin Anderson Portfolio"
           description="Explore the portfolio of Caitlin Anderson, a UX Designer & Web Developer based in Wellington, NZ. View featured projects and learn more about my skills."
-          url="https://caitlinandersondesign.co.nz/"
+          url="https://www.caitlinandersondesign.co.nz/"
         />
         <Navbar/>
         <LandingPage/>
