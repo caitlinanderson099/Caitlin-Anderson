@@ -197,6 +197,7 @@ nav {
   background-size: cover;
   background-position: center;
 
+
 .landing-text {
     display: flex;
     flex-direction: column;
@@ -701,6 +702,51 @@ nav {
   }
 }
 
+.project-filter-wrapper {
+  margin-bottom: 2rem;
+}
+
+/* Dropdown only on small screens */
+.filter-dropdown {
+  display: none;
+  margin-bottom: 1rem;
+}
+
+.filter-dropdown select {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 2px solid #222;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #222;
+}
+
+/* Buttons visible on desktop */
+.project-filter-bar {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-btn {
+  background: none;
+  border: 2px solid #222;
+  padding: 0.5rem 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: #222;
+  color: #fff;
+}
+
+
 
 
 /* ------------ My Services Page CSS --------------- */
@@ -1175,6 +1221,13 @@ nav {
 
 /* For mobile devices */
 @media screen and (max-width: 768px) {
+
+  .project-filter-bar {
+    display: none;
+  }
+  .filter-dropdown {
+    display: block;
+  }
 
   #clock {
     font-size: 0.9rem;

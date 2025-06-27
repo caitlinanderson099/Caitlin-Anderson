@@ -23,7 +23,7 @@ const Navbar = () => {
   };
       
           return (
-            <header data-aos="fade-down" data-aos-duration="2000">
+            <header >
               <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
                 <a href="/" className="navbar-brand">
                 <img src="/caitlins-logo.png" alt="Portfolio Avatar" loading="lazy"/>

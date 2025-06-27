@@ -1,6 +1,26 @@
 [
 
     {
+        "_id": "theyolkclock",
+        "project_name": "The Yolk Clock",
+        "project_type": "Web Design, UX Design",
+        "date": "2025",
+           "extended_description": "The Yolk Clock is a fun and interactive egg timer website designed to take the guesswork out of cooking the perfect egg. Inspired by nostalgic kitchen gadgets with a modern digital twist, it features a bright, cheerful interface with playful egg-themed visuals and a user-friendly layout. Users can choose their preferred style of egg—soft-boiled, medium, hard, poached, or fried—with preset cooking times that can be adjusted to suit personal tastes. A real-time countdown timer keeps users on track, and when time’s up, a built-in alarm with sound ensures you never miss the perfect moment. With smooth animations and satisfying sound cues, The Yolk Clock brings joy to your kitchen routine while ensuring every egg comes out just right. Whether you're a breakfast lover or a brunch perfectionist, this site adds a dash of charm to your culinary experience."
+,
+
+        "project_images": [
+            "/project-img/yolk-clock-mockup1.png",
+            "/project-img/yolk-clock-mockup2.png"
+        ],
+        "skills_used": "VSCode | HTML | CSS | JavaScript | GitHub | React + Vite | PixaBay",
+        "link": "https://the-yolk-clock.vercel.app/",
+        "backend_link": "https://github.com/caitlinanderson099/the_yolk_clock",
+        "frontend_link": "https://pixabay.com/sound-effects/search/alarm/",
+        "is_featured": true,
+        "is_favourite": true
+    },
+
+    {
         "_id": "drinkmenus",
         "project_name": "Drink Menus",
         "project_type": "Graphic Design",
@@ -199,25 +219,6 @@
     },
 
     {
-        "_id": "wellyaccommodations",
-        "project_name": "Welly Accommodations",
-        "project_type": "Web Design, UX Design",
-        "date": "2024",
-        "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
-        "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
-        "description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and Summative 1.1 assessments in the UX Design Module.",
-        "extended_description": "This was created by the Pusheen Team as a group project for our Formative 1.1 and 1.2 assessments in the UX Design Module. Our group consisted of myself, Baxter, and Kristine. The brief was essentially to redesign the Ui and Ux of a current hospitality website. We all decided to choose the website for Upper Hutt's Art of Food restaurant as it wasn't very user-friendly or pleasing to the eye. During this project I had learnt a lot about taking on a leadership role as well how to work together in a team. Our group worked well together, communicating our ideas and compromising ono important aspects for the users journey through the website. In creation of this project, we first used the Figma software to create Hifi designs and prototypes before moving onto coding the website by hand using vanilla HTML and CSS using the software VSCode.",
-        "project_images": [
-            "/project-img/accommodation(1).png",
-            "/project-img/accommodation(2).png",
-            "/project-img/accommodation(3).png"
-        ],
-        "skills_used": "Figma | GitHub | VSCode | HTML | CSS | Team Work | Time Management | Communication | Problem Solving",
-        "link": "https://formative-1-2-weld.vercel.app/",
-        "is_featured": false
-    },
-
-    {
         "_id": "huttvalleytaxis",
         "project_name": "Hutt Valley Taxis LTD",
         "project_type": "Graphic Design",
@@ -237,7 +238,7 @@
     {
         "_id": "simshamburgercakebox",
         "project_name": "Sims Hamburger Cake Box",
-        "project_type": "Product Design",
+        "project_type": "Graphic Design",
         "date": "2023",
         "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
