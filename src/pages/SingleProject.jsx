@@ -104,7 +104,7 @@ const SingleProject = () => {
           <div className='single-details'>
           <h2>{project.project_type} | {project.date}</h2>
           <div className='project-desc' dangerouslySetInnerHTML={{ __html: project.extended_description }}/>
-          <h4>Skills:</h4>
+          <h2>Skills:</h2>
           <p>{project.skills_used}</p>
           {project.link && (
             <>

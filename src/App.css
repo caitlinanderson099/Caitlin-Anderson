@@ -1361,12 +1361,13 @@ nav {
   }
 
    .single-page .single-project-details .back-title {
-    gap: 2rem;
-    padding: 0 15px;
-  }
-
-  .single-page .back-title h1 {
-    font-size: 9px;
+    display: flex;
+    gap: 1rem;
+    padding: 20px;
+    .back-btn {
+      width: 80px;
+      font-size: 14px;
+    }
   }
 
   .single-page .single-project-details .single-project-card {
@@ -1381,6 +1382,9 @@ nav {
 
   .single-page .single-project-details .single-project-card .single-details {
     width: 100%;
+    .project-desc {
+      font-size: 16px;
+    }
   }
 
   .single-page .single-project-details .single-project-card .single-details h2 {
@@ -1388,19 +1392,9 @@ nav {
     margin: 0px;
   }
 
-  .single-page .single-project-details .single-project-card .single-details .links-group {
-    flex-wrap: wrap;
-  }
-
   .single-page .single-project-details .single-project-card .single-details .links-group a {
-    font-size: 0.8em;
-  }
-
-  .single-page .single-project-details .back-btn {
-    width: 100%;
-    padding: 12px;
-    font-size: 1.2em;
-    margin: 0px;
+    font-size: 12px;
+    flex-wrap: wrap;
   }
 
   .inner {
