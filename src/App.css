@@ -482,10 +482,11 @@ nav {
       color: #101110;
       border: none;
       border-radius: 20px;
-      width: 550px;
+      width: 100%;
       padding: 10px;
       font-family: var(--main-font);
       font-weight: bold;
+      font-size: 1em;
       box-shadow: -2px 3px 10px -3px rgba(0,0,0,0.75);
       -webkit-box-shadow: -2px 3px 10px -3px rgba(0,0,0,0.75);
       -moz-box-shadow: -2px 3px 10px -3px rgba(0,0,0,0.75);

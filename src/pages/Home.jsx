@@ -81,66 +81,7 @@ const Home = () => {
     )
   }
 
-  // Skills Section Component
-  // const SkillSection = () => {
-  //   return (
-  //     <div className='skill-section' data-aos="fade-up" data-aos-duration="2000">
-
-  //       <div className="skill-cont">
-
-  //         <h2>My <span>Work</span> Skills</h2>
-
-  //         <div className='skill-count-section' data-aos="fade-up" data-aos-duration="2000">
-
-  //           {/* Skill #1 */}
-  //           <div className="stat-box" >
-  //           <img src="/skill-img/frontend-logo.png" alt="Frontend development icon" loading="lazy"/>
-  //           <h3>Frontend Development</h3>
-  //             <CountUp className='number' end={45} duration={4} enableScrollSpy suffix="%" />
-  //           </div>
-
-  //           {/* Skill #2 */}
-  //           <div className="stat-box" data-aos="fade-up" data-aos-duration="2000">
-  //           <img src="/skill-img/backend-logo.svg" alt="Backend development icon" loading="lazy" />
-  //           <h3>Backend Development</h3>
-  //             <CountUp className='number' end={30} duration={4} enableScrollSpy suffix="%" />
-  //           </div>
-
-  //           {/* Skill #3 */}
-  //           <div className="stat-box" data-aos="fade-up" data-aos-duration="2000">
-  //           <img src="/skill-img/wordpress-logo.png" alt="Wordpress logo" loading="lazy"/>
-  //           <h3>WordPress</h3>
-  //             <CountUp className='number' end={30} duration={4} enableScrollSpy suffix="%" />
-  //           </div>
-
-  //           {/* Skill #4 */}
-  //           <div className="stat-box" data-aos="fade-up" data-aos-duration="2000">
-  //           <img src="/skill-img/figma-logo.png" alt="Figma logo"loading="lazy" />
-  //           <h3>Figma</h3>
-  //             <CountUp className='number' end={55} duration={4} enableScrollSpy suffix="%" />
-  //           </div>
-
-  //           {/* Skill #5 */}
-  //           <div className="stat-box" data-aos="fade-up" data-aos-duration="2000">
-  //           <img src="/skill-img/github-logo.png" alt="Github logo"loading="lazy" />
-  //           <h3>GitHub</h3>
-  //             <CountUp className='number' end={55} duration={4} enableScrollSpy suffix="%" />
-  //           </div>
-
-  //           {/* Skill #6 */}
-  //           <div className="stat-box" data-aos="fade-up" data-aos-duration="2000">
-  //             <img src="/skill-img/vscode-logo.png" alt="VSCode logo" loading="lazy"/>
-  //             <h3>VSCode</h3>
-  //             <CountUp className='number' end={78} duration={4} enableScrollSpy suffix="%" />
-  //           </div>
-
-  //         </div>
-  //       </div>
-  //     </div>
-  //   )
-  // }
-
-  const ServiceSection = () => {
+  const SkillsSection = () => {
     return (
       <div className='service-section' data-aos="fade-up" data-aos-duration="2000">
 
@@ -275,8 +216,7 @@ const Home = () => {
         />
         <Navbar/>
         <LandingPage/>
-        {/* <SkillSection/> */}
-        <ServiceSection/>
+        <SkillsSection/>
         <AboutSection/>
         <FeaturedSection/>
         <ContactSection/>
