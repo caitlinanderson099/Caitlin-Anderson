@@ -1,6 +1,27 @@
 [
 
     {
+        "_id": "animalpixelarts",
+        "project_name": "Animal Pixel Arts",
+        "project_type": "Graphic Design",
+        "date": "2025",
+        "extended_description": "For this project, I wanted to explore a fresh and nostalgic design style by creating pixel art animals using Figma. Pixel art is a unique form of digital illustration characterized by its blocky, grid-based appearance, reminiscent of early video games. I chose this style to challenge myself creatively and experiment with minimalistic yet expressive visuals. Each animal icon was crafted pixel by pixel, carefully considering color placement and shading to achieve a charming and playful look while keeping the designs simple and clean. Using Figma allowed me to precisely control each pixel as a small square shape, giving me the flexibility to adjust and refine each element easily. This process helped me appreciate how even limited resolution can convey personality and emotion through thoughtful design choices. Overall, creating these pixel art animals was a fun way to broaden my skills and try something outside of my usual style, blending creativity with the discipline of working within tight visual constraints.",
+        "project_images": [
+            "/project-img/pixel-art(1).png",
+            "/project-img/pixel-art(2).png",
+            "/project-img/pixel-art(3).png",
+            "/project-img/pixel-art(4).png",
+            "/project-img/pixel-art(5).png",
+            "/project-img/pixel-art(6).png"
+
+        ],
+        "skills_used": "Figma",
+        "link": "",
+        "backend_link": "",
+        "is_featured": true
+    },
+
+    {
         "_id": "theyolkclock",
         "project_name": "The Yolk Clock",
         "project_type": "Web Design, UX Design",
