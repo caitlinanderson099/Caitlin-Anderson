@@ -329,6 +329,9 @@ nav {
       font-size: 3em;
       font-family: "Anton", sans-serif;
     }
+    h3 {
+      font-style: italic;
+    }
     .button-cont {
       display: flex;
       flex-direction: column;

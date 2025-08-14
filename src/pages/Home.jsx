@@ -8,7 +8,7 @@ import Seo from '../components/Seo'
 
 
 // Icon Imports
-import { Download} from 'react-bootstrap-icons';
+// import { Download} from 'react-bootstrap-icons';
 
 
 // Package Imports
@@ -59,21 +59,28 @@ const Home = () => {
       window.scrollTo(top);
       navigate('/get-in-touch');
     }
+
+    const handleExplore = (e) => {
+      e.preventDefault();
+      window.scrollTo(top);
+      navigate('/my-projects');
+    }
     return (
       <div className="about-section" data-aos="fade-up" data-aos-duration="2000">
         <div className="about-cont" >
         <div className='left-side'>
           <h2><span>Thank</span> You For Stopping By!</h2>
-          <h3>My name is Caitlin Anderson</h3>
-          <p> I&apos;m a Web & UX Design graduate based in Wellington, New Zealand, with a passion for creating thoughtful, user-friendly digital experiences. I specialize in hospitality and retail design, blending creativity with strategy to craft websites and apps that not only look great but work beautifully.</p>
+          <h3 className='about-quote'>&quot;Think in pixels, speak in code.&quot;</h3>
+          <p> I&apos;m Caitlin Anderson, a Web & UX Design graduate from Wellington, New Zealand, passionate about crafting engaging and intuitive digital experiences. I&apos;m deeply enthusiastic about digital design and creativity, and I love using code to bring ideas to life—turning concepts into interactive, meaningful experiences.</p>
           <div className="button-cont">
             <button onClick={handleConnect} className='connect-button'>Let&apos;s Connect!</button>
-            <a href="/Caitlin_Anderson_CV.pdf" download className="cv-button">
+            {/* <a href="/Caitlin_Anderson_CV.pdf" download className="cv-button">
               Download My CV <Download className='download-icon'/>
-            </a>          
+            </a>           */}
+            <button onClick={handleExplore}>Explore My Projects</button>
           </div>
         </div>
-          <img src="/self-portrait2.jpg" alt="Photo of myself" loading="lazy" />
+          <img src="/about-photo.jpg" alt="Photo of myself" loading="lazy" />
           <div>
           </div>
         </div>
