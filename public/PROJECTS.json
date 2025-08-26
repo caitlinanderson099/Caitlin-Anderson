@@ -1,8 +1,28 @@
 [
 
     {
+        "_id": "afterglowmenus",
+        "project_name": "Afterglow Bar Menu Design",
+        "project_type": "Graphic Design",
+        "date": "2025",
+        "short_description": "This was created using Canva",
+        "extended_description": "<p>Crafted with elegance and clarity in mind, the Afterglow Bar's drink menus present a modern, upscale aesthetic that reflects the sophistication of our offerings. Designed using Canva, the layout features a clean, minimalist approach with a touch of artistic flair—highlighted by stylish serif fonts and custom illustrations of cocktails that add a playful yet refined feel.</p><br><p>The menu is split into two sections:</p><br><p><strong>Mocktail Menu</strong> – A vibrant selection of non-alcoholic delights, featuring creative blends like Berry Breeze, Golden Hour, and Jungle Juice. Each drink is described with its core ingredients, and pricing is clearly displayed for easy browsing.</p><br><p><strong>Cocktail Menu</strong> – A curated mix of classic and signature cocktails, from refreshing favorites like the Mojito and Moscow Mule to unique house specials like Dong Hae and Peach Crush. Each drink is accompanied by a brief ingredient list and a consistent price point, maintaining a streamlined look.</p>\n\n<p>Both menus are designed for easy readability while evoking the relaxed yet refined atmosphere of Afterglow Bar. The cohesive branding, elegant typography, and visual balance make this menu set both functional and visually appealing—perfect for print or digital display.</p>"
+,
+        "project_images": [
+            "/project-img/afterglow-menu-mockup(1).png",
+            "/project-img/afterglow-menu-mockup(2).png",
+            "/project-img/afterglow-menu-mockup(3).png",
+            "/project-img/afterglow-menu-mockup(4).png",
+            "/project-img/afterglow-menu-mockup(5).png"
+        ],
+        "skills_used": "Canva",
+        "is_featured": true,
+        "is_favourite": true
+    },
+
+    {
         "_id": "fermentedbarandeateryposters",
-        "project_name": "Fermented Bar & Eatery Promo Posters *Updated*",
+        "project_name": "Fermented Bar & Eatery Posters *Updated*",
         "project_type": "Graphic Design",
         "date": "2025",
         "short_description": "This was created using Canva",
@@ -65,23 +85,6 @@
     },
 
     {
-        "_id": "drinkmenus",
-        "project_name": "Drink Menus",
-        "project_type": "Graphic Design",
-        "date": "2025",
-        "extended_description": "Created these drink menus inspired by the playful retro style with a modern twist. Featuring soft pastel backgrounds, wavy borders, and whimsical illustrations, each menu captures a nostalgic mid-century vibe while remaining clean and modern. The script-style headings and vibrant color palette evoke a sense of fun and celebration, while the simple layout keeps it user-friendly. Designed to add charm and personality to any bar or event, these menus strike the perfect balance between vintage flair and contemporary style.",
-        "project_images": [
-            "/project-img/menu-mockup1.png",
-            "/project-img/menu-mockup2.png",
-            "/project-img/menu-mockup3.png"
-        ],
-        "skills_used": "Canva",
-        "link": "",
-        "backend_link": "",
-        "is_featured": true
-    },
-
-    {
         "_id": "mytodolist",
         "project_name": "My To Do List",
         "project_type": "Web Design, UX Design",
@@ -115,7 +118,7 @@
         "backend_link": "https://spoonacular.com/food-api",
         "frontend_link": "https://github.com/caitlinanderson099/recipe-finder-using-api",
         "is_featured": true,
-        "is_favourite": true
+        "is_favourite": false
     },
 
     {
