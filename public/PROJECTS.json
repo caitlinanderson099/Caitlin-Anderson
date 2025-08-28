@@ -1,15 +1,18 @@
 [
 
     {
-        "_id": "dreamlightvalleyapp",
-        "project_name": "Disney Dreamlight Valley App Design",
+        "_id": "dreamlightvalleydesign",
+        "project_name": "Disney Dreamlight Valley Designs",
         "project_type": "UI Design",
         "date": "2025",
         "short_description": "This was created using Figma",
-        "extended_description": "<p>This concept mini app was designed in Figma as a creative exercise inspired by my love for Disney Dreamlight Valley.</p><br><p>It doesn’t serve a real-world function but instead explores how the game’s cozy, whimsical aesthetic could translate into a mobile interface.</p><br><p>The design includes a splash screen, main menu, and in-game reward/achievement screens, showcasing UI elements such as buttons, icons, and navigation flows.</p><br><p>I focused on keeping the style consistent with the game’s branding while applying clean, modern UI principles.</p><br><p>This project highlights my ability to translate an existing visual world into a mobile app experience, combining playful design with usability. It reflects both my passion for game-inspired design and my skill in creating polished, user-friendly digital interfaces.</p>"
+        "extended_description": "<p>This project showcases a creative design concept for Disney’s Dreamlight Valley, combining both website redesign and mobile app design in a cohesive visual experience. Using Figma, I explored a playful yet polished aesthetic that aligns with the magical and immersive world of Dreamlight Valley.</p><br> <p>The design includes:</p> <br> <li><strong> Website redesign:</strong> Featuring interactive sections, character highlights, and an engaging layout that brings the fantasy world to life while maintaining clear navigation and usability.</li><li><strong>Mobile app design:</strong> Showcasing an intuitive interface with smooth onboarding, character interactions, and key functionality optimized for mobile users.</li></p><br><p>The visual identity emphasizes vibrant, magical colors, with a primary palette drawn from the Dreamlight Valley universe, paired with Afacad typography for readability and brand consistency. This project highlights my ability to blend web and app design, creating a seamless user experience across platforms while staying true to the fantasy theme of the original IP.</p>"
 ,
         "project_images": [
-            "/project-img/dreamlight-mockup.png"
+            "/project-img/dreamlight-mockup(1).png",
+            "/project-img/dreamlight-mockup(2).png",
+            "/project-img/dreamlight-mockup(3).png"
+
         ],
         "skills_used": "Figma | Shots.so",
         "is_featured": true,
