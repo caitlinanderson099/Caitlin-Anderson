@@ -1,6 +1,22 @@
 [
 
     {
+        "_id": "dreamlightvalleyapp",
+        "project_name": "Disney Dreamlight Valley App Design",
+        "project_type": "UI Design",
+        "date": "2025",
+        "short_description": "This was created using Figma",
+        "extended_description": "<p>This concept mini app was designed in Figma as a creative exercise inspired by my love for Disney Dreamlight Valley.</p><br><p>It doesn’t serve a real-world function but instead explores how the game’s cozy, whimsical aesthetic could translate into a mobile interface.</p><br><p>The design includes a splash screen, main menu, and in-game reward/achievement screens, showcasing UI elements such as buttons, icons, and navigation flows.</p><br><p>I focused on keeping the style consistent with the game’s branding while applying clean, modern UI principles.</p><br><p>This project highlights my ability to translate an existing visual world into a mobile app experience, combining playful design with usability. It reflects both my passion for game-inspired design and my skill in creating polished, user-friendly digital interfaces.</p>"
+,
+        "project_images": [
+            "/project-img/dreamlight-mockup.png"
+        ],
+        "skills_used": "Figma | Shots.so",
+        "is_featured": true,
+        "is_favourite": false
+    },
+
+    {
         "_id": "afterglowmenus",
         "project_name": "Afterglow Bar Menu Design",
         "project_type": "Graphic Design",
