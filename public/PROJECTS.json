@@ -3,7 +3,7 @@
     {
         "_id": "dreamlightvalleydesign",
         "project_name": "Disney Dreamlight Valley Designs",
-        "project_type": "UI Design",
+        "project_type": "Web Design, UX Design",
         "date": "2025",
         "short_description": "This was created using Figma",
         "extended_description": "<p>This project showcases a creative design concept for Disney’s Dreamlight Valley, combining both website redesign and mobile app design in a cohesive visual experience. Using Figma, I explored a playful yet polished aesthetic that aligns with the magical and immersive world of Dreamlight Valley.</p><br> <p>The design includes:</p> <br> <li><strong> Website redesign:</strong> Featuring interactive sections, character highlights, and an engaging layout that brings the fantasy world to life while maintaining clear navigation and usability.</li><li><strong>Mobile app design:</strong> Showcasing an intuitive interface with smooth onboarding, character interactions, and key functionality optimized for mobile users.</li></p><br><p>The visual identity emphasizes vibrant, magical colors, with a primary palette drawn from the Dreamlight Valley universe, paired with Afacad typography for readability and brand consistency. This project highlights my ability to blend web and app design, creating a seamless user experience across platforms while staying true to the fantasy theme of the original IP.</p>"
@@ -59,27 +59,6 @@
             "/project-img/poster-mockup(6).png"
         ],
         "skills_used": "Canva",
-        "is_featured": true
-    },
-
-    {
-        "_id": "animalpixelarts",
-        "project_name": "Animal Pixel Arts",
-        "project_type": "Graphic Design",
-        "date": "2025",
-        "extended_description": "For this project, I wanted to explore a fresh and nostalgic design style by creating pixel art animals using Figma. Pixel art is a unique form of digital illustration characterized by its blocky, grid-based appearance, reminiscent of early video games. I chose this style to challenge myself creatively and experiment with minimalistic yet expressive visuals. Each animal icon was crafted pixel by pixel, carefully considering color placement and shading to achieve a charming and playful look while keeping the designs simple and clean. Using Figma allowed me to precisely control each pixel as a small square shape, giving me the flexibility to adjust and refine each element easily. This process helped me appreciate how even limited resolution can convey personality and emotion through thoughtful design choices. Overall, creating these pixel art animals was a fun way to broaden my skills and try something outside of my usual style, blending creativity with the discipline of working within tight visual constraints.",
-        "project_images": [
-            "/project-img/pixel-art(1).png",
-            "/project-img/pixel-art(2).png",
-            "/project-img/pixel-art(3).png",
-            "/project-img/pixel-art(4).png",
-            "/project-img/pixel-art(5).png",
-            "/project-img/pixel-art(6).png"
-
-        ],
-        "skills_used": "Figma",
-        "link": "",
-        "backend_link": "",
         "is_featured": true
     },
 
