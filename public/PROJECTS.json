@@ -2,12 +2,12 @@
 
      {
         "_id": "fableandcotoys",
-        "project_name": "Fable & Co Brand Design",
-        "project_type": "Graphic Design",
+        "project_name": "Fable & Co Children's Toys and Storytelling",
+        "project_type": "Branding & Identity Design, Graphic Design",
         "date": "2025",
         "short_description": "This was created using Figma",
         "extended_description": "<p>Fable Co. is a fictional brand concept I developed to explore the intersection of playful design and whimsical storytelling. The brand represents a children’s toy and storytelling shop that sparks imagination through enchanting visuals, cozy atmospheres, and magical details.</p><br><p>The visual identity draws inspiration from fairy tales and childhood wonder, using a palette of deep midnight blue, golden amber, and soft pastels to balance mystery with warmth. Key brand motifs—such as storybooks, stars, lanterns, and teddy bears—help create a sense of wonder and adventure that appeals to both children and parents.</p><br><p>I designed this project entirely in Figma, building out the brand identity system, storefront aesthetic, and supporting visuals. Figma’s vector tools and component libraries allowed me to experiment with playful iconography, cohesive color hierarchies, and layout variations that could be applied consistently across touchpoints.</p><br><p>This project demonstrates my ability to craft an immersive brand experience —from color psychology and typography to icon design and storytelling-driven visuals—while also showcasing my skills in using Figma as a professional design tool.</p>"
-,
+        ,
         "project_images": [
             "/project-img/brand-designing-mockup.png"
         ],
@@ -278,7 +278,7 @@
     {
         "_id": "simshamburgercakebox",
         "project_name": "Sims Hamburger Cake Box",
-        "project_type": "Graphic Design",
+        "project_type": "Packaging Design, Graphic Design",
         "date": "2023",
         "disclaimer": "<strong>Disclaimer:</strong> This project was created for educational purposes",
         "project_brief": "The brief for this project, Summative 1.1 assessment, is to implement the design from the previous chosen scenario we had into a functional webapp using web technologies to create an easier user experience.",
