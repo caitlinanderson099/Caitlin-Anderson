@@ -1364,18 +1364,26 @@ nav {
     width: 100%;
   }
 
+  /* SINGLE PAGE BACK BUTTON & PROJECT TITLE */
    .single-page .single-project-details .back-title {
     display: flex;
+    flex-direction: column;
     gap: 1rem;
     padding: 20px;
+    /* updated the font size of the project name header
+    and sat the back button on top & title on bottom with button having
+    100% width */
+    h1 {
+      font-size: 26px;
+    }
     .back-btn {
-      width: 80px;
-      font-size: 14px;
+      width: 100%;
+      font-size: 17px;
     }
   }
 
   .single-page .single-project-details .single-project-card {
-    padding: 15px;
+    padding: 20px;
     flex-direction: column;
   }
 
@@ -1387,7 +1395,7 @@ nav {
   .single-page .single-project-details .single-project-card .single-details {
     width: 100%;
     .project-desc {
-      font-size: 16px;
+      font-size: 17px;
     }
   }
 
