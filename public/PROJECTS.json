@@ -240,6 +240,24 @@
     },
 
     {
+        "_id": "photoshopposter",
+        "project_name": "Self Portrait Photoshop Poster",
+        "project_type": "Graphic Design",
+        "date": "2023",
+        "short_description": "This was created using Photoshop",
+        "extended_description": "<p>This self-portrait poster was designed in 2023 during my Web & Graphic Design course using Photoshop. I wanted to push beyond a traditional portrait by experimenting with blur effects, overlays, and fragmented layouts. By combining sharp contrasts with vibrant purples and glitch-inspired elements, I aimed to create a piece that feels both striking and unconventional. The mix of clarity and distortion reflects the idea of identity as layered and ever-changing—beautiful, mysterious, and a little bit chaotic.</p>"
+        ,
+        "project_images": [
+            "/project-img/photoshop-poster-mockup(1).png",
+            "/project-img/photoshop-poster-mockup(2).png",
+            "/project-img/photoshop-poster-mockup(3).png"
+        ],
+        "skills_used": "Photoshop",
+        "is_featured": false,
+        "is_favourite": false
+    },
+
+    {
         "_id": "huttvalleytaxis",
         "project_name": "Hutt Valley Taxis LTD",
         "project_type": "Graphic Design",
