@@ -1,9 +1,28 @@
 [
 
+    {
+        "_id": "dreamynotesmusicplayer",
+        "project_name": "DreamyNotes Music Player",
+        "project_type": "UX Design, Web Design",
+        "date": "2025",
+        "short_description": "This was created using VSCode",
+        "extended_description": "<p>DreamyNotes is a personal music player concept I designed and coded to explore the intersection of playful design and soothing digital experiences. The app offers a pastel, gamified interface that makes listening to music both engaging and visually delightful.</p><br> <p>The visual identity draws inspiration from soft, dreamy aesthetics, using a palette of pinks, purples, and muted pastels to create a calming yet playful mood. Key design elements—such as rounded buttons, pastel progress bars, and album cover highlights—bring a sense of whimsy and joy to the music listening experience, appealing to users who enjoy both music and charming visual design.</p><br> <p>I developed this project entirely using React, integrating interactive elements like play/pause controls, skip buttons, progress bars, and dynamic song timers. The project demonstrates careful attention to UX, ensuring intuitive navigation and responsive layouts that look beautiful on mobile devices.</p><br> <p>This project showcases my ability to combine coding and design, from building functional React components and managing state to applying a cohesive, immersive visual style. It reflects my passion for creating digital experiences that are both practical and aesthetically engaging, while also highlighting my skills in modern front-end development and interactive design.</p>"
+        ,
+        "project_images": [
+            "/project-img/music-player-mockup(1).png",
+            "/project-img/music-player-mockup(2).png",
+            "/project-img/music-player-mockup(3).png",
+            "/project-img/music-player-mockup(4).png"
+        ],
+        "skills_used": "VSCode | HTML | CSS | Javascript | GitHub | React",
+        "is_featured": true,
+        "is_favourite": true
+    },
+
      {
         "_id": "fableandcotoys",
         "project_name": "Fable & Co Children's Toys and Storytelling",
-        "project_type": "Branding & Identity Design, Graphic Design",
+        "project_type": "Branding & Identity Design",
         "date": "2025",
         "short_description": "This was created using Figma",
         "extended_description": "<p>Fable Co. is a fictional brand concept I developed to explore the intersection of playful design and whimsical storytelling. The brand represents a children’s toy and storytelling shop that sparks imagination through enchanting visuals, cozy atmospheres, and magical details.</p><br><p>The visual identity draws inspiration from fairy tales and childhood wonder, using a palette of deep midnight blue, golden amber, and soft pastels to balance mystery with warmth. Key brand motifs—such as storybooks, stars, lanterns, and teddy bears—help create a sense of wonder and adventure that appeals to both children and parents.</p><br><p>I designed this project entirely in Figma, building out the brand identity system, storefront aesthetic, and supporting visuals. Figma’s vector tools and component libraries allowed me to experiment with playful iconography, cohesive color hierarchies, and layout variations that could be applied consistently across touchpoints.</p><br><p>This project demonstrates my ability to craft an immersive brand experience —from color psychology and typography to icon design and storytelling-driven visuals—while also showcasing my skills in using Figma as a professional design tool.</p>"
@@ -13,7 +32,7 @@
         ],
         "skills_used": "Figma",
         "is_featured": true,
-        "is_favourite": true
+        "is_favourite": false
     },
 
     {
@@ -33,7 +52,7 @@
         ],
         "skills_used": "Canva",
         "is_featured": true,
-        "is_favourite": true
+        "is_favourite": false
     },
 
     {
