@@ -6,7 +6,7 @@
         "project_type": "UX Design, Web Design",
         "date": "2025",
         "short_description": "This was created using VSCode",
-        "extended_description": "<p>DreamyNotes is a personal music player concept I designed and coded to explore the intersection of playful design and soothing digital experiences. The app offers a pastel, gamified interface that makes listening to music both engaging and visually delightful.</p><br> <p>The visual identity draws inspiration from soft, dreamy aesthetics, using a palette of pinks, purples, and muted pastels to create a calming yet playful mood. Key design elements—such as rounded buttons, pastel progress bars, and album cover highlights—bring a sense of whimsy and joy to the music listening experience, appealing to users who enjoy both music and charming visual design.</p><br> <p>I developed this project entirely using React, integrating interactive elements like play/pause controls, skip buttons, progress bars, and dynamic song timers. The project demonstrates careful attention to UX, ensuring intuitive navigation and responsive layouts that look beautiful on mobile devices.</p><br> <p>This project showcases my ability to combine coding and design, from building functional React components and managing state to applying a cohesive, immersive visual style. It reflects my passion for creating digital experiences that are both practical and aesthetically engaging, while also highlighting my skills in modern front-end development and interactive design.</p>"
+        "extended_description": "<p>DreamyNotes is a personal music player I designed and coded, blending playful design with soothing digital experiences. Featuring a pastel, gamified interface with rounded buttons, pastel progress bars, and album highlights, it creates a calming yet engaging music experience.</p><br> <p>Built entirely in React, the app includes interactive elements like play/pause controls, skip buttons, progress bars, and dynamic song timers, with intuitive navigation and responsive layouts for mobile devices.</p><br> <p>This project demonstrates my ability to merge coding and design, creating functional, visually immersive digital experiences while showcasing modern front-end development and UX skills.</p>"
         ,
         "project_images": [
             "/project-img/music-player-mockup(1).png",
@@ -14,7 +14,10 @@
             "/project-img/music-player-mockup(3).png",
             "/project-img/music-player-mockup(4).png"
         ],
-        "skills_used": "VSCode | HTML | CSS | Javascript | GitHub | React",
+        "skills_used": "VSCode | MP3JUICE | HTML | CSS | Javascript | GitHub | React",
+        "link": "https://dreamynotes-music-player.vercel.app/",
+        "backend_link": "https://github.com/caitlinanderson099/dreamynotes_music_player",
+        "frontend_link": "https://mp3juice.co/",
         "is_featured": true,
         "is_favourite": true
     },
