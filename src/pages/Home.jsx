@@ -80,7 +80,7 @@ const Home = () => {
             <button onClick={handleExplore}>Explore My Projects</button>
           </div>
         </div>
-          <img src="/about-photo.jpg" alt="Photo of myself" loading="lazy" />
+          <img src="/selfie-photo.jpg" alt="Photo of myself" loading="lazy" />
           <div>
           </div>
         </div>
