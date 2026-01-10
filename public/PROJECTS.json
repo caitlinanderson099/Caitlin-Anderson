@@ -1,6 +1,23 @@
 [
 
     {
+        "_id": "robertsonplumbingltd",
+        "project_name": "Roberston Plumbing Solutions LTD",
+        "project_type": "UX Design, Web Design",
+        "date": "2025",
+        "short_description": "This was created using VSCode",
+        "extended_description": "<p>Recent project for Robertson Plumbing Solutions NZ </p><br><p> Designed + built a clean, mobile-friendly site to showcase their services and recent work. </p><br> <p>Really loved how this one turned out! </p>"
+        ,
+        "project_images": [
+            "/project-img/plumbing-mockup.png",
+            "/project-img/plumbing-mockup-1.png"
+        ],
+        "skills_used": "VSCode | HTML | CSS | Javascript | GitHub | React",
+        "link": "https://www.robertsonplumbing.nz/",
+        "is_featured": true,
+        "is_favourite": false
+    },
+    {
         "_id": "dreamynotesmusicplayer",
         "project_name": "DreamyNotes Music Player",
         "project_type": "UX Design, Web Design",
@@ -19,7 +36,7 @@
         "backend_link": "https://github.com/caitlinanderson099/dreamynotes_music_player",
         "frontend_link": "https://mp3juice.co/",
         "is_featured": true,
-        "is_favourite": true
+        "is_favourite": false
     },
 
      {
