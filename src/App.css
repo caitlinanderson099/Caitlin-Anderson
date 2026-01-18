@@ -297,6 +297,28 @@ nav {
 }
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 72px; /* 👈 pushes it above the clock */
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: #111;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-top:hover {
+  transform: translateY(-4px);
+  background-color: #333;
+}
+
+
 
 #clock {
   position: fixed;
