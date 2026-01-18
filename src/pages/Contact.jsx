@@ -67,9 +67,9 @@ const Contact = () => {
   return (
     <div className='contact-page'>
         <Seo 
-          title="Get in Touch | Caitlin Anderson Design"
+          title="Get in Touch | Caitlin Anderson Design NZ"
           description="Explore the portfolio of Caitlin Anderson, a UX Designer & Web Developer based in Wellington, NZ. View featured projects and learn more about her skills."
-          url="https://caitlinandersondesign.co.nz/"
+          url="https://caitlin-anderson-design.vercel.app/"
         />
         <Navbar/>
         <Toaster position='top-right'/>

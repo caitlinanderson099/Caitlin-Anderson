@@ -80,7 +80,7 @@ const Home = () => {
             <button onClick={handleExplore}>Explore My Projects</button>
           </div>
         </div>
-          <img src="/selfie-photo.jpg" alt="Photo of myself" loading="lazy" />
+          <img src="/selfie-photo.jpeg" alt="Photo of myself" loading="lazy" />
           <div>
           </div>
         </div>
@@ -217,9 +217,9 @@ const Home = () => {
     <>
       <div className='home' id='home' style={{ position: "relative", overflow: "hidden" }}>
         <Seo 
-          title="Caitlin Anderson Design"
+          title="Caitlin Anderson Design NZ"
           description="Explore the portfolio of Caitlin Anderson, a UX Designer & Web Developer based in Wellington, NZ. View featured projects and learn more about my skills."
-          url="https://www.caitlinandersondesign.co.nz/"
+          url="https://caitlin-anderson-design.vercel.app/"
         />
         <Navbar/>
         <LandingPage/>

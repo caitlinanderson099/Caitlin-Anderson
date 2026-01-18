@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer-grid">
       <div className="footer-logo">
-        <img src="/caitlin-anderson-logo.png" alt="Caitlin Anderson Logo" />
+        <img src="/caitlin-anderson-logo2.png" alt="Caitlin Anderson Logo" />
       </div>
       <div className="footer-copy">
         <p>© 2025 Caitlin Anderson</p>
