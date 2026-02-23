@@ -55,8 +55,8 @@ nav {
   color: #101110;
   text-decoration: none;
   img {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     border: 1px solid #101110;
     border-radius: 50%;
   }
@@ -193,7 +193,7 @@ nav {
   padding: 100px;
   text-align: center;
   color: #101110;
-  background-image: url('/landing2.png');
+  background-image: url('/landing2.webp');
   background-size: cover;
   background-position: center;
 
@@ -341,7 +341,7 @@ nav {
   gap: 2rem;
   padding: 20px;
   color: #101110;
-  background-image: url('/landing2.png');
+  background-image: url('/landing2.webp');
   .left-side {
     display: flex;
     flex-direction: column;
@@ -586,7 +586,7 @@ nav {
 .contact-section {
   padding: 20px;
   color: #101110;
-  background-image: url('/landing2.png');
+  background-image: url('/landing2.webp');
   .contact-details{
     display: flex;
     flex-direction: column;
@@ -650,7 +650,7 @@ nav {
   max-width: 100vw;
   .projects-cont {
     padding: 20px;
-  background-image: url('/landing2.png');
+  background-image: url('/landing2.webp');
   background-repeat: no-repeat;
   background-size: cover;
   }
@@ -803,7 +803,7 @@ nav {
   max-width: 100vw;
 
   .single-project-details {
-   background-image: url('/landing2.png');
+   background-image: url('/landing2.webp');
   background-repeat: no-repeat;
   background-size: cover;
     padding: 20px;
@@ -983,7 +983,7 @@ nav {
 /* Contact Page CSS */
 .contact-page {
   max-width: 100vw;
-   background-image: url('/landing2.png');
+   background-image: url('/landing2.webp');
   background-repeat: no-repeat;
   background-size: cover;
 

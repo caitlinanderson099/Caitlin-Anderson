@@ -6,11 +6,6 @@ import axios from 'axios';
 import Seo from '../components/Seo'
 
 
-
-// Icon Imports
-// import { Download} from 'react-bootstrap-icons';
-
-
 // Package Imports
 import TypedIntro from '../components/TypedIntro';
 import AOS from 'aos';
@@ -74,9 +69,6 @@ const Home = () => {
           <p> I&apos;m Caitlin Anderson, a Web & UX Design graduate from Wellington, New Zealand, passionate about crafting engaging and intuitive digital experiences. I&apos;m deeply enthusiastic about digital design and creativity, and I love using code to bring ideas to life—turning concepts into interactive, meaningful experiences.</p>
           <div className="button-cont">
             <button onClick={handleConnect} className='connect-button'>Let&apos;s Connect!</button>
-            {/* <a href="/Caitlin_Anderson_CV.pdf" download className="cv-button">
-              Download My CV <Download className='download-icon'/>
-            </a>           */}
             <button onClick={handleExplore}>Explore My Projects</button>
           </div>
         </div>
