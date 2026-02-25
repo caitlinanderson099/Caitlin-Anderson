@@ -209,6 +209,7 @@ nav {
    .header-span {
     font-size: 3em;
     font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
     position: relative;
     display: inline-block;
     animation: bounce 1.9s ease-in-out infinite alternate;
@@ -1123,6 +1124,7 @@ nav {
       margin-top: 100px;
       .header-span {
         font-size: 2em;
+        text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 10px rgba(45, 42, 42, 0.3);
       }
       h2 {
         font-size: 1.3em;

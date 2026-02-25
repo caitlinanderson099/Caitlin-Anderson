@@ -126,13 +126,15 @@ const Home = () => {
         >
           <div className="landing-text">
             <h1>
-              <span className="header-span">W</span>
-              <span className="header-span">E</span>
-              <span className="header-span">L</span>
-              <span className="header-span">C</span>
+              <span className="header-span">K</span>
+              <span className="header-span">I</span>
+              <span className="header-span">A</span>
+              {" "} 
+              {/* this adds the space in between the two words */}
+              
               <span className="header-span">O</span>
-              <span className="header-span">M</span>
-              <span className="header-span">E</span>
+              <span className="header-span">R</span>
+              <span className="header-span">A</span>
               <span className="header-span">!</span>
             </h1>
             <p>
