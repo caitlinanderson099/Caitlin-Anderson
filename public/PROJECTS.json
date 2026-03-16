@@ -1,5 +1,21 @@
 [
 
+    {
+        "_id": "justpeachysparklingbeverage",
+        "project_name": "Just Peachy Sparkling Water",
+        "project_type": "Branding & Identity Design, Web Design, Graphic Design",
+        "date": "2026",
+        "extended_description": "<h3>Just Peachy – Beverage Branding Concept 🍑 </h3> <br><p>Just Peachy is a playful sparkling water branding concept designed to capture the light, refreshing feeling of a peach-flavoured drink. The project focuses on creating a soft, approachable visual identity through warm peach tones, organic shapes, and a retro-inspired typographic style.</p> <br> <p>The packaging was designed to feel fresh, fun, and eye-catching on shelves while communicating the drink’s natural, bubbly character. The overall aesthetic aims to evoke summer, sweetness, and a sense of easy refreshment, bringing the “just peachy” feeling to life through colour, layout, and branding elements.</p><br> <p><strong>Scope: </strong> Branding, Packaging Design, Visual Identity</p>"
+        ,
+        "project_images": [
+            "/project-img/just-peachy(1).png",
+            "/project-img/just-peachy(2).png"
+        ],
+        "skills_used": "Canva",
+        "is_featured": true,
+        "is_favourite": true
+    },
+
      {
         "_id": "bookillustrationdesign",
         "project_name": "Katie's Book Collection Illustration Design",
