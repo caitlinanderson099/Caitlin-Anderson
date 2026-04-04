@@ -67,14 +67,14 @@ const Contact = () => {
   return (
     <div className='contact-page'>
         <Seo 
-          title="Get in Touch | Caitlin Anderson Design NZ"
+          title="Get in Touch | DsgnByCait NZ"
           description="Explore the portfolio of Caitlin Anderson, a UX Designer & Web Developer based in Wellington, NZ. View featured projects and learn more about her skills."
           url="https://caitlin-anderson-design.vercel.app/"
         />
         <Navbar/>
         <Toaster position='top-right'/>
         <div className='contact-content' data-aos="fade-up" data-aos-duration="2000">
-            <h1> <span>Get</span> In Touch</h1>
+            <h1> Get In Touch</h1>
 
             <div className='contact-details'>
                 <p>You can find me on any of my socials or feel free to fill out an enquiry form down below!</p>

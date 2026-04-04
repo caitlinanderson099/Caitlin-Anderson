@@ -149,7 +149,7 @@ const MyProjects = () => {
   return (
     <div className='my-projects'>
       <Seo
-        title="My Projects | Caitlin Anderson Design NZ"
+        title="My Projects | DsgnByCait NZ"
         description="Explore the portfolio of Caitlin Anderson, a UX Designer & Web Developer based in Wellington, NZ. View featured projects and learn more about her skills."
         url="https://caitlin-anderson-design.vercel.app/"
       />

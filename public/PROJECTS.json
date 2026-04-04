@@ -1,39 +1,6 @@
 [
 
     {
-        "_id": "justpeachysparklingbeverage",
-        "project_name": "Just Peachy Sparkling Water",
-        "project_type": "Branding & Identity Design, Web Design, Graphic Design",
-        "date": "2026",
-        "extended_description": "<h3>Just Peachy – Beverage Branding Concept 🍑 </h3> <br><p>Just Peachy is a playful sparkling water branding concept designed to capture the light, refreshing feeling of a peach-flavoured drink. The project focuses on creating a soft, approachable visual identity through warm peach tones, organic shapes, and a retro-inspired typographic style.</p> <br> <p>The packaging was designed to feel fresh, fun, and eye-catching on shelves while communicating the drink’s natural, bubbly character. The overall aesthetic aims to evoke summer, sweetness, and a sense of easy refreshment, bringing the “just peachy” feeling to life through colour, layout, and branding elements.</p><br> <p><strong>Scope: </strong> Branding, Packaging Design, Visual Identity</p>"
-        ,
-        "project_images": [
-            "/project-img/just-peachy(1).png",
-            "/project-img/just-peachy(2).png"
-        ],
-        "skills_used": "Canva",
-        "is_featured": true,
-        "is_favourite": true
-    },
-
-     {
-        "_id": "bookillustrationdesign",
-        "project_name": "Katie's Book Collection Illustration Design",
-        "project_type": "Graphic Design",
-        "date": "2026",
-        "extended_description": "<p>Katie’s Favourite Books is a playful graphic designed to capture the joy of children’s reading. The concept focuses on bright colours, friendly shapes, and simple illustrated elements to create a warm and inviting scene that appeals to young audiences.</p> <br> <p>The design uses a soft pastel palette, bold typography, and storybook-style visuals to evoke imagination and curiosity. Elements like the sunshine, clouds, and stacked books help reinforce a lighthearted learning environment while keeping the composition visually balanced. </p> <br> <p>This project explores how illustration, colour, and typography can work together to create engaging visuals for children’s content.</p>"
-        ,
-        "project_images": [
-            "/project-img/book-mockup(1).png",
-            "/project-img/book-mockup(2).png",
-            "/project-img/book-mockup(3).png"
-        ],
-        "skills_used": "Canva",
-        "is_featured": true,
-        "is_favourite": false
-    },
-
-    {
         "_id": "robertsonplumbingltd",
         "project_name": "Robertson Plumbing Solutions LTD",
         "project_type": "UX Design, Web Design",

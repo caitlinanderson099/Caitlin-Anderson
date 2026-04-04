@@ -7,12 +7,12 @@ const Footer = () => {
         <img src="/caitlin-anderson-logo2.png" alt="Caitlin Anderson Logo" />
       </div>
       <div className="footer-copy">
-        <p>© 2025 Caitlin Anderson</p>
+        <p>© 2025 DsgnByCait NZ</p>
       </div>
       <div className="footer-social">
-        <a href="https://www.instagram.com/caitlinandersondesign" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/dsgnbycaitnz" target="_blank" rel="noopener noreferrer">
           <Instagram size={20} />
-          <span>@caitlinandersondesign</span>
+          <span>@dsgnbycaitnz</span>
         </a>
         <a href="https://www.linkedin.com/in/caitlin-anderson099" target="_blank" rel="noopener noreferrer">
           <Linkedin size={20} />

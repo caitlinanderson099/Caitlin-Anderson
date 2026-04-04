@@ -211,7 +211,7 @@ const Home = () => {
     <>
       <div className='home' id='home' style={{ position: "relative", overflow: "hidden" }}>
         <Seo 
-          title="Caitlin Anderson Design NZ"
+          title="DsgnByCait NZ"
           description="Explore the portfolio of Caitlin Anderson, a UX Designer & Web Developer based in Wellington, NZ. View featured projects and learn more about my skills."
           url="https://caitlin-anderson-design.vercel.app/"
         />

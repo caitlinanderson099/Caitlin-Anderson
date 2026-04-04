@@ -3,6 +3,8 @@ import Home from '../pages/Home'
 import SingleProject from '../pages/SingleProject'
 import MyProjects from '../pages/MyProjects'
 import Contact from '../pages/Contact'
+import Services from '../pages/Services'
+
 
 
 const Links = () => {
@@ -11,6 +13,7 @@ const Links = () => {
     <Routes>
         <Route exact path='/' element={<Home/>}/>
         <Route path='/my-projects' element={<MyProjects/>}/>
+        <Route path='/services' element={<Services/>}/>
         <Route path='/get-in-touch' element={<Contact/>}/>
         {/* Single Page */}
         <Route path="/singleproject/:id" element={<SingleProject />} />
