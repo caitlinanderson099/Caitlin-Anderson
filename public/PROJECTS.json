@@ -1,6 +1,23 @@
 [
 
     {
+        "_id": "summervibescanvatemplate",
+        "project_name": "'Summer Vibes' Canva Template",
+        "project_type": "Graphic Design",
+        "date": "2026",
+        "short_description": "This was created using Canva",
+        "extended_description": "<p>I designed this template in Canva to capture those bright, summery vibes—perfect for the Insta baddies who want to make their feed pop.<br><br>With playful colors, trendy layouts, and a fresh aesthetic, it’s made to help your posts stand out and express your personality.<br><br>Bring that sun-kissed, scroll-stopping energy to your profile—summer never looked this good!</p>"
+        ,
+        "project_images": [
+            "/project-img/canva-template1.png",
+            "/project-img/canva-template2.png"
+        ],
+        "skills_used": "Canva",
+        "is_featured": true,
+        "is_favourite": true
+    },
+
+    {
         "_id": "robertsonplumbingltd",
         "project_name": "Robertson Plumbing Solutions LTD",
         "project_type": "UX Design, Web Design",
