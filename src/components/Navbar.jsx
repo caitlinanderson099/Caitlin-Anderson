@@ -36,7 +36,7 @@ const Navbar = () => {
                     My Projects
                   </a>
                   {/* <a href="#services" onClick={() => setMenuOpen(false)}>
-                    Services
+                    My Services
                   </a> */}
                   <a href="#get-in-touch" onClick={() => setMenuOpen(false)}>
                     Get In Touch
@@ -45,7 +45,7 @@ const Navbar = () => {
                      <a href="www.linkedin.com/in/caitlin-anderson099" onClick={() => setMenuOpen(false)}>
                     <Linkedin/>
                   </a>
-                  <a href="https://www.instagram.com/dsgnbycaitnz" onClick={() => setMenuOpen(false)}>
+                  <a href="https://www.instagram.com/caitlinandersondesign" onClick={() => setMenuOpen(false)}>
                     <Instagram/>
                   </a>
                   <a href="https://github.com/caitlinanderson099" onClick={() => setMenuOpen(false)}>
