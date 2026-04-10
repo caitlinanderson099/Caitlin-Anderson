@@ -82,6 +82,8 @@ const MyProjects = () => {
     switch (filter) {
       case "Web Design / UX Design":
         return projects.filter(p => p.project_type.includes("Web Design") || p.project_type.includes("UX Design"));
+      case "Creative Design":
+        return projects.filter(p => p.project_type.includes("Creative Design") || p.project_type.includes("Creative Design"));
       case "Graphic Design":
         return projects.filter(p => p.project_type.includes("Graphic Design"));
       case "Branding & Identity Design":
@@ -105,7 +107,7 @@ const MyProjects = () => {
         value={filter}
         onChange={(e) => setFilter(e.target.value)}
       >
-        {["All", "Web Design / UX Design", "Graphic Design", "Branding & Identity Design", "Creator's Favourite"].map((category) => (
+        {["All", "Web Design / UX Design", "Graphic Design", "Branding & Identity Design", "Creator's Favourite", "Creative Design"].map((category) => (
           <option key={category} value={category}>
             {category}
           </option>
@@ -115,7 +117,7 @@ const MyProjects = () => {
 
     {/* Buttons for desktop */}
     <div className="project-filter-bar">
-      {["All", "Web Design / UX Design", "Graphic Design", "Branding & Identity Design", "Creator's Favourite"].map((category) => (
+      {["All", "Web Design / UX Design", "Graphic Design", "Branding & Identity Design", "Creator's Favourite", "Creative Design"].map((category) => (
         <button
           key={category}
           className={`filter-btn ${filter === category ? 'active' : ''}`}
