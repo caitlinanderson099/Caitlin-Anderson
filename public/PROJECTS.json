@@ -1,4 +1,19 @@
 [
+    {
+        "_id": "rebornconceptposter",
+        "project_name": "Reborn Concept Design Poster",
+        "project_type": "Graphic Design",
+        "date": "2026",
+        "short_description": "This was DIY creation",
+        "extended_description": "<p>Reborn — Concept Poster Design 🦋</p><br><p>A conceptual poster exploring themes of transformation, growth, and renewal. This piece combines surreal imagery, typography, and layered textures to represent the idea of letting go of the past and embracing change.</p><br><p>I wanted to create a dark, atmospheric composition that feels both fragile and powerful — using the butterfly as a symbol of evolution and new beginnings.</p>"
+        ,
+        "project_images": [
+            "/project-img/reborn-poster2.png"
+        ],
+        "skills_used": "Creative Design | Graphic Design | Conceptual Design | Canva",
+        "is_featured": true,
+        "is_favourite": true
+    },
 
     {
         "_id": "diycandle",
