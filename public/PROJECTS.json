@@ -1,4 +1,21 @@
 [
+
+     {
+        "_id": "petalsposter",
+        "project_name": "Petals & Poise",
+        "project_type": "Graphic Design",
+        "date": "2026",
+        "short_description": "This was DIY creation",
+        "extended_description": "<p>Petals & Poise — Poster Design 🌹</p><br><p>A poster exploring the contrast between beauty and darkness, inspired by the delicate yet dangerous nature of flowers. This piece combines dramatic imagery, elegant typography, and rich textures to represent the balance between fragility, mystery, and hidden strength.</p><br><p>I wanted to create a dark and atmospheric composition that feels both captivating and unsettling — using petals as a symbol of beauty, transformation, and the things that can exist beneath the surface.</p>"
+        ,
+        "project_images": [
+            "/project-img/petals-poster.png"
+        ],
+        "skills_used": "Creative Design | Graphic Design | Canva",
+        "is_featured": true,
+        "is_favourite": true
+    },
+
     {
         "_id": "rebornconceptposter",
         "project_name": "Reborn Concept Design Poster",
