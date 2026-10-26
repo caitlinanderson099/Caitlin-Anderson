@@ -13,7 +13,7 @@
         ],
         "skills_used": "Creative Design | Graphic Design | Canva",
         "is_featured": true,
-        "is_favourite": true
+        "is_favourite": false
     },
 
     {
@@ -32,25 +32,7 @@
         "is_favourite": true
     },
 
-    {
-        "_id": "diycandle",
-        "project_name": "DIY Candycane Candle",
-        "project_type": "Creative Design",
-        "date": "2026",
-        "short_description": "This was DIY creation",
-        "extended_description": "<p>DIY Candycane scented candle 🕯️</p><br> <p>First attempt at making candles using soy wax and candy cane fragrance. Decorated with shells collected from many beaches across the New Zealand North Island!! 🐚</p><br> <p> I love how this turned out and is the perfect gift! </p>"
-        ,
-        "project_images": [
-            "/project-img/candle1.jpeg",
-            "/project-img/candle2.jpeg",
-            "/project-img/candle3.jpeg"
-        ],
-        "skills_used": "DIY | Candle-making",
-        "is_featured": true,
-        "is_favourite": false
-    },
-
-
+    
     {
         "_id": "robertsonplumbingltd",
         "project_name": "Robertson Plumbing Solutions LTD",
